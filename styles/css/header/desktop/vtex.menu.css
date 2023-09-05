@@ -1,0 +1,15 @@
+.styledLinkContent--menu-departamentos{
+    color: black;
+}
+
+.menuItem--isOpen{
+    text-decoration: underline;
+    color: #ff6705;
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+}
+
+.styledLinkContent:hover{
+    font-weight: bold;
+    color: #ff6705;
+}

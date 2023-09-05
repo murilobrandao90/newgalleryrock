@@ -1,0 +1,597 @@
+{
+    "menu-item#marcas1":{
+        "props":
+        {
+            "blockClass":"menu-marcas1",
+            "id": "menu-item#marcas1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "MARCAS",
+                "text": "MARCAS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#marcas1"
+        ]
+    },
+
+    "vtex.menu@2.x:submenu#marcas1":{
+        "children":["flex-layout.row#submenu-marcas1"],
+        "props": {
+            "width": "100%"
+          }
+    },
+
+    "flex-layout.row#submenu-marcas1":{
+        "children": [
+            "flex-layout.col#submenu-marcas1",
+            "flex-layout.col#submenu-marcas2",
+            "flex-layout.col#submenu-marcas3",
+            "flex-layout.col#submenu-marcas4"
+        ],
+        "props":{            
+            "blockClass":"category-menu-row"
+        }
+    },
+
+    "flex-layout.col#submenu-marcas1":{
+        "children":[
+            "menu-item#adidas",
+            "menu-item#all-star",
+            "menu-item#calvin-klein",
+            "menu-item#champion",
+            "menu-item#cravo-e-canela",
+            "menu-item#dc-shoes",
+            "menu-item#drop-dead",
+            "menu-item#ed-hardy",
+            "menu-item#fila"
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+
+    "flex-layout.col#submenu-marcas2":{
+        "children":[
+            
+            
+            "menu-item#freeday",
+            "menu-item#hocks3",
+            "menu-item#john-john",
+            "menu-item#kipling",
+            "menu-item#labellamafia",
+            "menu-item#live",
+            "menu-item#lost",
+            "menu-item#maria-gueixa",
+            "menu-item#mary-jane",
+            "menu-item#melissa3",
+            "menu-item#new-era"
+            
+        ],
+        "props":{
+            "width":"category-menu-col1"
+        }
+    },
+
+    "flex-layout.col#submenu-marcas3":{
+        "children":[
+            "menu-item#ous",
+            "menu-item#puma",
+            "menu-item#stamp-rockwear",
+            "menu-item#stooge",
+            "menu-item#sumemo",
+            "menu-item#supra",
+            "menu-item#thrasher",
+            "menu-item#vans",
+            "menu-item#villela-boots",
+            "menu-item#outros"
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+
+    "flex-layout.col#submenu-marcas4":{
+        "children":["image#marcas4"],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+
+    "menu-item#adidas":{
+        "props":
+        {
+            "blockClass":"menu-adidas",
+            "id": "menu-item#adidas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/adidas",
+                "noFollow": false,
+                "tagTitle": "ADIDAS",
+                "text": "ADIDAS"
+            }
+        }
+    },
+    "menu-item#all-star":{
+        "props":
+        {
+            "blockClass":"menu-all-star",
+            "id": "menu-item#all-star",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/converse",
+                "noFollow": false,
+                "tagTitle": "ALL STAR",
+                "text": "ALL STAR"
+            }
+        }
+    },
+    "menu-item#calvin-klein":{
+        "props":
+        {
+            "blockClass":"menu-calvin-klein",
+            "id": "menu-item#calvin-klein",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calvin-klein",
+                "noFollow": false,
+                "tagTitle": "CALVIN KLEIN",
+                "text": "CALVIN KLEIN"
+            }
+        }
+    },
+    "menu-item#champion":{
+        "props":
+        {
+            "blockClass":"menu-champion",
+            "id": "menu-item#champion",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/champion",
+                "noFollow": false,
+                "tagTitle": "CHAMPION",
+                "text": "CHAMPION"
+            }
+        }
+    },
+    "menu-item#cravo-e-canela":{
+        "props":
+        {
+            "blockClass":"menu-cravo-e-canela",
+            "id": "menu-item#cravo-e-canela",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cravo-e-canela",
+                "noFollow": false,
+                "tagTitle": "CRAVO E CANELA",
+                "text": "CRAVO E CANELA"
+            }
+        }
+    },
+
+    "menu-item#dc-shoes":{
+        "props":
+        {
+            "blockClass":"menu-dc-shoes",
+            "id": "menu-item#dc-shoes",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/dc-shoes",
+                "noFollow": false,
+                "tagTitle": "DC SHOES",
+                "text": "DC SHOES"
+            }
+        }
+    },
+    "menu-item#drop-dead":{
+        "props":
+        {
+            "blockClass":"menu-drop-dead",
+            "id": "menu-item#drop-dead",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/drop-dead",
+                "noFollow": false,
+                "tagTitle": "DROP DEAD",
+                "text": "DROP DEAD"
+            }
+        }
+    },
+    "menu-item#ed-hardy":{
+        "props":
+        {
+            "blockClass":"menu-ed-hardy",
+            "id": "menu-item#ed-hardy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ed-hardy",
+                "noFollow": false,
+                "tagTitle": "ED HARDY",
+                "text": "ED HARDY"
+            }
+        }
+    },
+    "menu-item#fila":{
+        "props":
+        {
+            "blockClass":"menu-fila",
+            "id": "menu-item#fila",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/fila",
+                "noFollow": false,
+                "tagTitle": "FILA",
+                "text": "FILA"
+            }
+        }
+    },
+    "menu-item#freeday":{
+        "props":
+        {
+            "blockClass":"menu-freeday",
+            "id": "menu-item#freeday",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/freeday",
+                "noFollow": false,
+                "tagTitle": "FREEDAY",
+                "text": "FREEDAY"
+            }
+        }
+    },
+    "menu-item#hocks3":{
+        "props":
+        {
+            "blockClass":"menu-hocks",
+            "id": "menu-item#hocks",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/hocks",
+                "noFollow": false,
+                "tagTitle": "HOCKS",
+                "text": "HOCKS"
+            }
+        }
+    },
+    "menu-item#john-john":{
+        "props":
+        {
+            "blockClass":"menu-john-john",
+            "id": "menu-item#john-john",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/john-john",
+                "noFollow": false,
+                "tagTitle": "JOHN JOHN",
+                "text": "JOHN JOHN"
+            }
+        }
+    },
+
+    "menu-item#kipling":{
+        "props":
+        {
+            "blockClass":"menu-kipling",
+            "id": "menu-item#kipling",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/kipling",
+                "noFollow": false,
+                "tagTitle": "KIPLING",
+                "text": "KIPLING"
+            }
+        }
+    },
+    "menu-item#labellamafia":{
+        "props":
+        {
+            "blockClass":"menu-labellamafia",
+            "id": "menu-item#labellamafia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/labellamafia",
+                "noFollow": false,
+                "tagTitle": "LABELLA MAFIA",
+                "text": "LABELLA MAFIA"
+            }
+        }
+    },
+    "menu-item#live":{
+"props":
+{
+    "blockClass":"menu-live",
+    "id": "menu-item#live",
+    "type": "custom",
+    "highlight": false,
+    "itemProps": {
+        "type": "internal",
+        "href": "/live",
+        "noFollow": false,
+        "tagTitle": "LIVE",
+        "text": "LIVE"
+    }
+}
+},
+    "menu-item#lost":{
+        "props":
+        {
+            "blockClass":"menu-lost",
+            "id": "menu-item#lost",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/lost",
+                "noFollow": false,
+                "tagTitle": "LOST",
+                "text": "LOST"
+            }
+        }
+    },
+    "menu-item#maria-gueixa":{
+        "props":
+        {
+            "blockClass":"menu-maria-gueixa",
+            "id": "menu-item#maria-gueixa",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/maria-gueixa",
+                "noFollow": false,
+                "tagTitle": "MARIA GUEIXA",
+                "text": "MARIA GUEIXA"
+            }
+        }
+    },
+
+    "menu-item#mary-jane":{
+        "props":
+        {
+            "blockClass":"menu-mary-jane",
+            "id": "menu-item#mary-jane",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mary-jane",
+                "noFollow": false,
+                "tagTitle": "MARY JANE",
+                "text": "MARY JANE"
+            }
+        }
+    },
+    "menu-item#melissa3":{
+        "props":
+        {
+            "blockClass":"menu-melissa",
+            "id": "menu-item#melissa",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/melissa",
+                "noFollow": false,
+                "tagTitle": "MELISSA",
+                "text": "MELISSA"
+            }
+        }
+    },
+    "menu-item#new-era":{
+        "props":
+        {
+            "blockClass":"menu-new-era",
+            "id": "menu-item#new-era",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/new-era",
+                "noFollow": false,
+                "tagTitle": "NEW ERA",
+                "text": "NEW ERA"
+            }
+        }
+    },
+    "menu-item#ous":{
+        "props":
+        {
+            "blockClass":"menu-ous",
+            "id": "menu-item#ous",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ous",
+                "noFollow": false,
+                "tagTitle": "OUS",
+                "text": "OUS"
+            }
+        }
+    },
+    "menu-item#puma":{
+        "props":
+        {
+            "blockClass":"menu-puma",
+            "id": "menu-item#puma",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/puma",
+                "noFollow": false,
+                "tagTitle": "PUMA",
+                "text": "PUMA"
+            }
+        }
+    },
+    "menu-item#stamp-rockwear":{
+        "props":
+        {
+            "blockClass":"menu-stamp-rockwear",
+            "id": "menu-item#stamp-rockwear",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/stamp-rockwear",
+                "noFollow": false,
+                "tagTitle": "STAMP ROCKWEAR",
+                "text": "STAMP ROCKWEAR"
+            }
+        }
+    },
+    "menu-item#stooge":{
+        "props":
+        {
+            "blockClass":"menu-stooge",
+            "id": "menu-item#stooge",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/stooge",
+                "noFollow": false,
+                "tagTitle": "STOOGE",
+                "text": "STOOGE"
+            }
+        }
+    },
+
+    "menu-item#sumemo":{
+        "props":
+        {
+            "blockClass":"menu-sumemo",
+            "id": "menu-item#sumemo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/sumemo",
+                "noFollow": false,
+                "tagTitle": "SUMEMO",
+                "text": "SUMEMO"
+            }
+        }
+    },
+    "menu-item#supra":{
+        "props":
+        {
+            "blockClass":"menu-supra",
+            "id": "menu-item#supra",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/supra",
+                "noFollow": false,
+                "tagTitle": "SUPRA",
+                "text": "SUPRA"
+            }
+        }
+    },
+    "menu-item#thrasher":{
+        "props":
+        {
+            "blockClass":"menu-thrasheer",
+            "id": "menu-item#thrasheer",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/thrasher",
+                "noFollow": false,
+                "tagTitle": "THRASHER",
+                "text": "THRASHER"
+            }
+        }
+    },
+    "menu-item#vans":{
+        "props":
+        {
+            "blockClass":"menu-vans",
+            "id": "menu-item#vans",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/vans",
+                "noFollow": false,
+                "tagTitle": "VANS",
+                "text": "VANS"
+            }
+        }
+    },
+    "menu-item#villela-boots":{
+        "props":
+        {
+            "blockClass":"menu-villela-boots",
+            "id": "menu-item#villela-boots",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/villela-boots",
+                "noFollow": false,
+                "tagTitle": "VILELA BOOTS",
+                "text": "VILELA BOOTS"
+            }
+        }
+    },
+
+    "menu-item#outros":{
+        "props":
+        {
+            "blockClass":"menu-outros",
+            "id": "menu-item#outros",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/outros",
+                "noFollow": false,
+                "tagTitle": "OUTROS",
+                "text": "OUTROS"
+            }
+        }
+    },
+
+    "image#marcas4":{
+        "props":{
+            "src":"assets/imgs/submenu/dropdown-marcas-2.webp",
+            "height": "150"
+        }
+    }
+}

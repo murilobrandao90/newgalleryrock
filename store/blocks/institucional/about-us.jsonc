@@ -1,0 +1,67 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        //"flex-layout.row#gallery-rock",
+        "flex-layout.row#institucional"        
+      ]
+    },
+
+    "flex-layout.row#gallery-rock":{
+      "props":{
+        "blockClass": "home__row",
+        "horizontalAlign": "center"
+      },
+      "children":[        
+        "rich-text#gallery-rock"
+      ]
+    },
+
+    "flex-layout.row#institucional":{
+      "props":{"blockClass": ["home__row", "institucional__titulo"]},
+      "children":["flex-layout.col#institucional"]
+    },
+
+    "flex-layout.col#institucional":{
+      "props":{},
+      "children":["disclosure-layout-group#institucional"]
+    },
+
+    "disclosure-layout-group#institucional":{
+      "children":[
+        "disclosure-layout#quemsomos",
+        "disclosure-layout#politica",
+        "disclosure-layout#trocas",
+        "disclosure-layout#entrega",
+        "disclosure-layout#pagamentos",
+        "disclosure-layout#promocoes",
+        "disclosure-layout#onde"
+      ]
+    },
+    
+    "disclosure-state-indicator": {
+      "props": {
+        "Show": "icon-caret#down",
+        "Hide": "icon-caret#up"
+      }
+    },
+    "icon-caret#down": {
+      "props": {
+        "orientation": "down"
+      }
+    },
+    "icon-caret#up": {
+      "props": {
+        "orientation": "up"
+      }
+    },
+
+    "rich-text#gallery-rock":{
+      "props":{
+          "text": "## A GALLERY ROCK",
+          "textAlignment": "CENTER",
+          "blockClass": "gallery-rock"
+      }
+  }
+
+}
+   

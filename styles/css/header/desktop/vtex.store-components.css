@@ -1,0 +1,30 @@
+.logoContainer--main-logo.sizeDesktop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoImage--main-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchIcon{
+    color: #ff6705;
+}
+
+.globeIcon{
+    color: #ff6705;
+}
+
+.bg-action-primary{
+    background-color: #ff6705;
+}
+
+.frameAround:hover{
+    background-color: #ff6705;
+}
+.buyButtonText {
+    background-color: #ff6705;
+}

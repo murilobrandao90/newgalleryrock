@@ -1,0 +1,47 @@
+{
+    "list-context.image-list#banner": {
+        "children": ["slider-layout#banner-images"],
+        "props": {
+          "height": 570,
+          "preload": true,
+          "images": [
+            {
+              "image": "https://galleryrock.vteximg.com.br/arquivos/ids/210568/Banner%20Camisas.png?v=638210406888100000",
+              "mobileImage": "assets/imgs/home/mobile/banner1.png"
+            },
+            {
+              "image": "https://galleryrock.vteximg.com.br/arquivos/ids/210569/Banner%20Converse.png?v=638207970327300000",
+              "mobileImage": "assets/imgs/home/mobile/banner2.png"
+            },
+            {
+              "image": "https://galleryrock.vteximg.com.br/arquivos/ids/210570/Banner%20Vans.png?v=638210622669800000",
+              "mobileImage": "assets/imgs/home/mobile/banner3.png"
+            },
+            {
+              "image": "https://galleryrock.vteximg.com.br/arquivos/ids/210571/Banner%20NEW%20ERA.png?v=638207973038900000",
+              "mobileImage": "assets/imgs/home/mobile/banner4.png"
+            },
+            {
+              "image": "https://galleryrock.vteximg.com.br/arquivos/ids/210572/Banner%20CK.png?v=638207974257870000",
+              "mobileImage": "assets/imgs/home/mobile/banner5.png"
+            }
+          ]
+        }
+      },
+    
+      "slider-layout#banner-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel",
+          "autoplay": {
+            "timeout": 3000
+          }
+        }
+      }
+}

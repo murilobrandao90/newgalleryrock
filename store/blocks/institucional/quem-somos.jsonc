@@ -1,0 +1,45 @@
+{
+    "disclosure-layout#quemsomos": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#quemsomos", "disclosure-content#quemsomos"]
+    },
+
+    "disclosure-trigger#quemsomos":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#quemsomos-pergunta"
+        ]
+    }, 
+    "disclosure-content#quemsomos":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#quemsomos-resposta"
+        ]
+    },
+
+    "rich-text#quemsomos-pergunta":{
+        "props":{
+            "text": "QUEM SOMOS"
+        }
+    },
+
+    "rich-text#quemsomos-resposta":{
+        "props":{
+            "text": "Desde o final dos anos 90, a Gallery Rock vem escrevendo sua história entre o público roqueiro, de estilo alternativo e a galera que busca por uma lifestyle mais descolada na cidade de Sorocaba, a início a Gallery trabalhava exclusivamente com artigos voltado ao Rock N' Roll, como acessórios, CD's e camisetas das mais variadas bandas de Rock, mas atendendo a pedidos, resolvemos inovar e trazer uma loja totalmente diferenciada e planejada para que você possa se sentir em casa e muito a vontade durante suas compras! Desde que nasceu, a Gallery rapidamente se tornou o point para quem procurava um estilo com mais atitude para o dia a dia, a início a loja tinha cerca de 50m², porém com o passar do tempo nosso sucesso foi aumentando de tal forma, que levou a Gallery Rock a um novo patamar, em 2009 com apoio de parceiros a tão amada e já consagrada loja de artigos voltados ao rock passou a existir em um espaço bem maior para suprir toda sua demanda de clientes, tendo assim, cerca de 360m². Com o decorrer do tempo, a Gallery Rock começou a atender clientes de todas as faixas etárias e estilos, hoje a Gallery trabalha com as melhores marcas do mercado como New Era, Vans, DC, Adidas, Element, Melissa entre outras, tudo isso para que você tenha mais opções para alcançar o estilo que sempre sonhou. Tudo o que você precisa, você encontra na Gallery, é estilo para abusar da cabeça aos pés, sempre com toda qualidade que você merece. Ah e não se esqueça, após finalizar suas compras aproveite e passe em nosso estúdio no piso superior, temos uma enorme variedade em piercings para você, não tenha medo de ousar, afinal de contas a vida é uma só, e a Gallery Rock vai te ajudar a alcançar o estilo de vida que sempre quis! E para você se sentir tão especial quanto já é, contamos com uma linda equipe bem estruturada e capacitada para fazer suas compras se tornarem ainda mais prazerosas. A Gallery Rock é muito grata á todo o apoio que tivemos e temos até hoje, Obrigado, VOCÊS SÃO O MELHOR PÚBLICO DO MUNDO ! Vem para Gallery Rock!"
+    }
+    },
+
+    "image#quem-somos":{
+        "props":{
+            "src": "assets/imgs/institucional/agalleryrock.png"
+        }
+    }
+}

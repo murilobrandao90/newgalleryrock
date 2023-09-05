@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#text-produtos-1": {
+        "children": [ "rich-text#produtos-1" ]
+    },
+
+    "rich-text#produtos-1": {
+        "props":{
+            "text" : "### **CALÇADOS**",
+            "textPosition":"CENTER"
+        }
+    },
+
+    "flex-layout.row#produtos-1": {
+        "children": ["list-context.product-list#produtos-1"],
+        "props":{
+          "blockClass": "home__row"
+        }
+    },
+
+    "list-context.product-list#produtos-1": {
+        "blocks": ["product-summary.shelf#produtos-1"],
+        "children": ["slider-layout#produtos-1"],
+        "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "category": "4"
+        }
+      },
+      "slider-layout#produtos-1": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "showPaginationDots": "never",
+          "blockClass": "shelf"
+        }
+      },
+      "product-summary.shelf#produtos-1": {
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price"
+        ]
+      }
+}

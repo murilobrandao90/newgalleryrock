@@ -1,0 +1,49 @@
+{
+    "header-layout.mobile": {
+        "children": ["sticky-layout#1-mobile"]
+      },
+
+      "sticky-layout#1-mobile": {
+        "children": ["flex-layout.row#1-mobile"]
+      },
+
+    "flex-layout.row#1-mobile": {
+        "children": [
+          "drawer",
+          "logo#mobile",
+          "flex-layout.col#spacer",
+          "search-bar",
+          "minicart.v2"
+        ],
+        "props": {
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+      "drawer": {
+        "children": ["menu#drawer"]
+      },
+    
+      "menu#drawer": {
+        "children": [
+            //"search-bar",
+            "category-menu"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+    
+      "logo#mobile": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/imgs/top-bar/logo-gr.png",
+          "width": "60",
+          "height": "50"
+        }
+      }
+
+}

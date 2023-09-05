@@ -1,0 +1,39 @@
+{
+    "disclosure-layout#promocoes": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#promocoes", "disclosure-content#promocoes"]
+    },
+
+    "disclosure-trigger#promocoes":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#promocoes-pergunta"
+        ]
+    }, 
+    "disclosure-content#promocoes":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#promocoes-resposta"
+        ]
+    },
+
+    "rich-text#promocoes-pergunta":{
+        "props":{
+            "text": "PROMOÇÕES"
+    }
+    },
+
+    "rich-text#promocoes-resposta":{
+        "props":{
+            "text": "### Promoção Frete grátis: \nFrete grátis para o estado de São Paulo em compras a partir R$100,00, demais Regiões a partir de R$ 200,00.Promoção sujeita a alteração sem aviso prévio.\n ### Promoção Melissa: \nCompre a terceira e leve a quarta, Promoção sujeita a alteração sem aviso prévio., promoção válida até durarem os estoques, válida apenas para produtos da marca Melissa. \nVálida Somente para compras online, promoção não válida para loja física.\n ### Promoção 30% Desconto Produtos Lost: \nPromoção válida para toda linha Lost até durarem os estoques."
+        }
+    }
+}

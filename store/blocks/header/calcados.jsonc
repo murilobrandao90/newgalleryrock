@@ -1,0 +1,415 @@
+{
+    "menu-item#calcados1":{
+        "props":
+        {
+            "blockClass":"menu-calcados1",
+            "id": "menu-item#calcados1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados",
+                "noFollow": false,
+                "tagTitle": "CALÇADOS",
+                "text": "CALÇADOS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#calcados1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#calcados1":{
+        "children":["flex-layout.row#submenu-calcados1"],
+        "props": {
+            "width": "100%"
+          }
+    },
+    
+    "flex-layout.row#submenu-calcados1":{
+        "children": [
+            "flex-layout.col#submenu-calcados1",
+            "flex-layout.col#submenu-calcados2",
+            "flex-layout.col#submenu-calcados3",
+            "flex-layout.col#submenu-calcados4"
+        ],
+        "props":{            
+            "blockClass":"category-menu-row"
+        }
+    },
+    
+    "flex-layout.col#submenu-calcados1":{
+        "children":[
+            "menu-item#adidas1",
+            "menu-item#all-star1",
+            "menu-item#cravo-e-canela1",
+            "menu-item#dc-shoes1",
+            "menu-item#double-g",
+            "menu-item#drop-dead1",
+            "menu-item#fila1",
+            "menu-item#freeday1"
+            
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-calcados2":{
+        "children":[
+            "menu-item#mary-jane1",
+            "menu-item#melissa1",
+            "menu-item#ous1",
+            "menu-item#puma1",
+            "menu-item#qix",
+            "menu-item#supra1",
+            "menu-item#vans1",
+            "menu-item#vilela-boots"
+        ],
+        "props":{
+            "width":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-calcados3":{
+        "children":[
+            "menu-item#hocks",
+            "menu-item#kipling1",
+            "menu-item#labellamafia1",
+            "menu-item#live1"
+        ]
+    },
+    
+    "flex-layout.col#submenu-calcados4":{
+        "children":["image#calcados4"],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "menu-item#adidas1":{
+        "props":
+        {
+            "blockClass":"menu-adidas1",
+            "id": "menu-item#adidas1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/adidas?initialMap=b&initialQuery=adidas&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "ADIDAS",
+                "text": "ADIDAS"
+            }
+        }
+    },
+    "menu-item#all-star1":{
+        "props":
+        {
+            "blockClass":"menu-converse",
+            "id": "menu-item#converse",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/converse?fuzzy=0&initialMap=ft&initialQuery=converse&map=category-1,ft&operator=and",
+                "noFollow": false,
+                "tagTitle": "ALL STAR",
+                "text": "ALL STAR"
+            }
+        }
+    },
+    "menu-item#cravo-e-canela1":{
+        "props":
+        {
+            "blockClass":"menu-cravo-e-canela",
+            "id": "menu-item#cravo-e-canela",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/cravo-e-canela?initialMap=b&initialQuery=cravo-e-canela&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "CRAVO E CANELA",
+                "text": "CRAVO E CANELA"
+            }
+        }
+    },
+    "menu-item#dc-shoes1":{
+        "props":
+        {
+            "blockClass":"menu-dc-shoes",
+            "id": "menu-item#dc-shoes",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/dc-shoes?initialMap=b&initialQuery=dc-shoes&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "DC SHOES",
+                "text": "DC SHOES"
+            }
+        }
+    },
+    "menu-item#double-g":{
+        "props":
+        {
+            "blockClass":"menu-double-g",
+            "id": "menu-item#double-g",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/double-g",
+                "noFollow": false,
+                "tagTitle": "DOUBLE G",
+                "text": "DOUBLE G"
+            }
+        }
+    },
+    "menu-item#drop-dead1":{
+        "props":
+        {
+            "blockClass":"menu-drop-dead",
+            "id": "menu-item#drop-dead",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/drop-dead",
+                "noFollow": false,
+                "tagTitle": "DROP DEAD",
+                "text": "DROP DEAD"
+            }
+        }
+    },
+    "menu-item#fila1":{
+        "props":
+        {
+            "blockClass":"menu-fila",
+            "id": "menu-item#fila",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/fila?initialMap=b&initialQuery=fila&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "FILA",
+                "text": "FILA"
+            }
+        }
+    },
+    "menu-item#freeday1":{
+        "props":
+        {
+            "blockClass":"menu-freeday",
+            "id": "menu-item#freeday",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/freeday?initialMap=b&initialQuery=freeday&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "FREEDAY",
+                "text": "FREEDAY"
+            }
+        }
+    },
+    "menu-item#hocks":{
+        "props":
+        {
+            "blockClass":"menu-hocks",
+            "id": "menu-item#hocks",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/hocks?initialMap=b&initialQuery=hocks&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "HOCKS",
+                "text": "HOCKS"
+            }
+        }
+    },
+    "menu-item#kipling1":{
+        "props":
+        {
+            "blockClass":"menu-kipling",
+            "id": "menu-item#kipling",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/kipling?initialMap=b&initialQuery=kipling&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "KIPLING",
+                "text": "KIPLING"
+            }
+        }
+    },
+    "menu-item#labellamafia1":{
+        "props":
+        {
+            "blockClass":"menu-labellamafia",
+            "id": "menu-item#labellamafia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/labellamafia?initialMap=b&initialQuery=labellamafia&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "LABELLAMAFIA",
+                "text": "LABELLAMAFIA"
+            }
+        }
+    },
+    "menu-item#live1":{
+        "props":
+        {
+            "blockClass":"menu-live",
+            "id": "menu-item#live",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/live",
+                "noFollow": false,
+                "tagTitle": "LIVE",
+                "text": "LIVE"
+            }
+        }
+    },
+    "menu-item#mary-jane1":{
+        "props":
+        {
+            "blockClass":"menu-mary-jane",
+            "id": "menu-item#mary-jane",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/mary-jane?initialMap=b&initialQuery=mary-jane&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "MARY JANE",
+                "text": "MARY JANE"
+            }
+        }
+    },
+    "menu-item#melissa1":{
+        "props":
+        {
+            "blockClass":"menu-melissa",
+            "id": "menu-item#melissa",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/melissa",
+                "noFollow": false,
+                "tagTitle": "MELISSA",
+                "text": "MELISSA"
+            }
+        }
+    },
+    "menu-item#ous1":{
+        "props":
+        {
+            "blockClass":"menu-ous",
+            "id": "menu-item#ous",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/ous?initialMap=b&initialQuery=ous&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "OUS",
+                "text": "OUS"
+            }
+        }
+    },
+    "menu-item#puma1":{
+        "props":
+        {
+            "blockClass":"menu-puma",
+            "id": "menu-item#puma",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/puma?initialMap=b&initialQuery=puma&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "PUMA",
+                "text": "PUMA"
+            }
+        }
+    },
+    "menu-item#qix":{
+        "props":
+        {
+            "blockClass":"menu-qix",
+            "id": "menu-item#qix",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/qix",
+                "noFollow": false,
+                "tagTitle": "QIX",
+                "text": "QIX"
+            }
+        }
+    },
+    "menu-item#supra1":{
+        "props":
+        {
+            "blockClass":"menu-supra",
+            "id": "menu-item#supra",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/supra?initialMap=b&initialQuery=supra&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "SUPRA",
+                "text": "SUPRA"
+            }
+        }
+    },
+    "menu-item#vans1":{
+        "props":
+        {
+            "blockClass":"menu-vans",
+            "id": "menu-item#vans",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/vans?initialMap=b&initialQuery=vans&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "VANS",
+                "text": "VANS"
+            }
+        }
+    },
+    "menu-item#vilela-boots":{
+        "props":
+        {
+            "blockClass":"menu-vilela-boots",
+            "id": "menu-item#vilela-boots",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/vilela-boots?initialMap=b&initialQuery=vilela-boots&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "VILELA BOOTS",
+                "text": "VILELA BOOTS"
+            }
+        }
+    },
+
+    "image#calcados4":{
+        "props":{
+            "src":"assets/imgs/submenu/dropdown-calcados-1.webp"
+        }
+    }
+}

@@ -1,0 +1,415 @@
+{
+    "menu-item#acessorios1":{
+        "props":
+        {
+            "blockClass":"menu-acesorios1",
+            "id": "menu-item#acesorios1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios",
+                "noFollow": false,
+                "tagTitle": "ACESSÓRIOS",
+                "text": "ACESSÓRIOS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#acessorios1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#acessorios1":{
+        "children":["flex-layout.row#submenu-acessorios1"],
+        "props": {
+            "width": "100%"
+          }
+    },
+    
+    "flex-layout.row#submenu-acessorios1":{
+        "children": [
+            "flex-layout.col#submenu-acessorios1",
+            "flex-layout.col#submenu-acessorios2",
+            "flex-layout.col#submenu-acessorios3",
+            "flex-layout.col#submenu-acessorios4"
+        ],
+        "props":{            
+            "blockClass":"category-menu-row"
+        }
+    },
+    
+    "flex-layout.col#submenu-acessorios1":{
+        "children":[
+            "menu-item#bandanas",
+            "menu-item#bolsas",
+            "menu-item#bones",
+            "menu-item#braceletes-e-pulseiras",
+            "menu-item#cadernos",
+            "menu-item#carteiras",
+            "menu-item#chaveiros",
+            "menu-item#cintos"
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-acessorios2":{
+        "children":[
+            "menu-item#gorros-e-toucas",
+            "menu-item#luvas",
+            "menu-item#meia-calca",
+            "menu-item#meias",
+            "menu-item#mochilas",
+            "menu-item#pochetes",
+            "menu-item#presilhas",
+            "menu-item#relogios"
+        ],
+        "props":{
+            "width":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-acessorios3":{
+        "children":[
+            "menu-item#colares-e-gargantilhas",
+            "menu-item#estojos",
+            "menu-item#shoulder-bag",
+            "menu-item#suspensorios"
+        ]
+    },
+    
+    "flex-layout.col#submenu-acessorios4":{
+        "children":["image#acessorios4"],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "menu-item#bandanas":{
+        "props":
+        {
+            "blockClass":"menu-bandanas",
+            "id": "menu-item#bandanas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/bandanas",
+                "noFollow": false,
+                "tagTitle": "BANDANAS",
+                "text": "BANDANAS"
+            }
+        }
+    },
+    "menu-item#bolsas":{
+        "props":
+        {
+            "blockClass":"menu-bolsas",
+            "id": "menu-item#bolsas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/bolsas",
+                "noFollow": false,
+                "tagTitle": "BOLSAS",
+                "text": "BOLSAS"
+            }
+        }
+    },
+    "menu-item#bones":{
+        "props":
+        {
+            "blockClass":"menu-bones",
+            "id": "menu-item#bones",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/bones",
+                "noFollow": false,
+                "tagTitle": "BONÉS",
+                "text": "BONÉS"
+            }
+        }
+    },
+    "menu-item#braceletes-e-pulseiras":{
+        "props":
+        {
+            "blockClass":"menu-braceletes-e-pulseiras",
+            "id": "menu-item#braceletes-e-pulseiras",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/braceletes-e-pulseiras",
+                "noFollow": false,
+                "tagTitle": "BRACELETES E PULSEIRAS",
+                "text": "BRACELETES E PULSEIRAS"
+            }
+        }
+    },
+    "menu-item#cadernos":{
+        "props":
+        {
+            "blockClass":"menu-cadernos",
+            "id": "menu-item#cadernos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/cadernos",
+                "noFollow": false,
+                "tagTitle": "CADERNOS",
+                "text": "CADERNOS"
+            }
+        }
+    },
+    "menu-item#carteiras":{
+        "props":
+        {
+            "blockClass":"menu-carteiras",
+            "id": "menu-item#carteiras",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/carteiras",
+                "noFollow": false,
+                "tagTitle": "CARTEIRAS",
+                "text": "CARTEIRAS"
+            }
+        }
+    },
+    "menu-item#chaveiros":{
+        "props":
+        {
+            "blockClass":"menu-chaveiros",
+            "id": "menu-item#chaveiros",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/chaveiros",
+                "noFollow": false,
+                "tagTitle": "CHAVEIROS",
+                "text": "CHAVEIROS"
+            }
+        }
+    },
+    "menu-item#cintos":{
+        "props":
+        {
+            "blockClass":"menu-cintos",
+            "id": "menu-item#cintos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/cintos",
+                "noFollow": false,
+                "tagTitle": "CINTOS",
+                "text": "CINTOS"
+            }
+        }
+    },
+    "menu-item#colares-e-gargantilhas":{
+        "props":
+        {
+            "blockClass":"menu-colares-e-gargantilhas",
+            "id": "menu-item#colares-e-gargantilhas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/colares-e-gargantilhas",
+                "noFollow": false,
+                "tagTitle": "COLARES E GARGANTILHAS",
+                "text": "COLARES E GARGANTILHAS"
+            }
+        }
+    },
+    "menu-item#estojos":{
+        "props":
+        {
+            "blockClass":"menu-estojos",
+            "id": "menu-item#estojos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/estojos",
+                "noFollow": false,
+                "tagTitle": "ESTOJOS",
+                "text": "ESTOJOS"
+            }
+        }
+    },
+    "menu-item#gorros-e-toucas":{
+        "props":
+        {
+            "blockClass":"menu-gorros-e-toucas",
+            "id": "menu-item#gorros-e-toucas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/gorros-e-toucas",
+                "noFollow": false,
+                "tagTitle": "GORROS E TOUCAS",
+                "text": "GORROS E TOUCAS"
+            }
+        }
+    },
+    "menu-item#luvas":{
+        "props":
+        {
+            "blockClass":"menu-luvas",
+            "id": "menu-item#luvas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/luvas",
+                "noFollow": false,
+                "tagTitle": "LUVAS",
+                "text": "LUVAS"
+            }
+        }
+    },
+    "menu-item#meia-calca":{
+        "props":
+        {
+            "blockClass":"menu-meia-calca",
+            "id": "menu-item#meia-calca",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/meia-calca",
+                "noFollow": false,
+                "tagTitle": "MEIA CALÇA",
+                "text": "MEIA CALÇA"
+            }
+        }
+    },
+    "menu-item#meias":{
+        "props":
+        {
+            "blockClass":"menu-meias",
+            "id": "menu-item#meias",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/meias",
+                "noFollow": false,
+                "tagTitle": "MEIAS",
+                "text": "MEIAS"
+            }
+        }
+    },
+    "menu-item#mochilas":{
+        "props":
+        {
+            "blockClass":"menu-mochilas",
+            "id": "menu-item#mochilas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/mochilas",
+                "noFollow": false,
+                "tagTitle": "MOCHILAS",
+                "text": "MOCHILAS"
+            }
+        }
+    },
+    "menu-item#pochetes":{
+        "props":
+        {
+            "blockClass":"menu-pochetes",
+            "id": "menu-item#pochetes",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/pochetes",
+                "noFollow": false,
+                "tagTitle": "POCHETES",
+                "text": "POCHETES"
+            }
+        }
+    },
+    "menu-item#presilhas":{
+        "props":
+        {
+            "blockClass":"menu-presilhas",
+            "id": "menu-item#presilhas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/presilhas",
+                "noFollow": false,
+                "tagTitle": "PRESILHAS",
+                "text": "PRESILHAS"
+            }
+        }
+    },
+    "menu-item#relogios":{
+        "props":
+        {
+            "blockClass":"menu-relogios",
+            "id": "menu-item#relogios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/relogios",
+                "noFollow": false,
+                "tagTitle": "RELÓGIOS",
+                "text": "RELÓGIOS"
+            }
+        }
+    },
+    "menu-item#shoulder-bag":{
+        "props":
+        {
+            "blockClass":"menu-shoulder-bag",
+            "id": "menu-item#shoulder-bag",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/shoulder-bag",
+                "noFollow": false,
+                "tagTitle": "SHOULDER BAG",
+                "text": "SHOULDER BAG"
+            }
+        }
+    },
+    "menu-item#suspensorios":{
+        "props":
+        {
+            "blockClass":"menu-suspensorios",
+            "id": "menu-item#suspensorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios/suspensorios",
+                "noFollow": false,
+                "tagTitle": "SUSPENSÓRIOS",
+                "text": "SUSPENSÓRIOS"
+            }
+        }
+    },
+
+    "image#acessorios4":{
+        "props":{
+            "src":"assets/imgs/submenu/dropdown-acessorios-1.webp"
+        }
+    }
+
+}

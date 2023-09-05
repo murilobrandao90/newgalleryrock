@@ -1,0 +1,469 @@
+{
+    "vtex.menu@2.x:submenu#categorias":{
+        "children":[
+            "flex-layout.row#submenu-categorias"
+        ],
+        "props": {
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.row#submenu-categorias":{
+        "children":[
+            "menu-item#esportes",
+            "menu-item#tatuagem",
+            "menu-item#melissa",
+            "menu-item#calcados",
+            "menu-item#roupas",
+            "menu-item#acessorios",
+            "menu-item#animeecosplay",
+            "menu-item#musica",
+            "menu-item#utilidadesedecoracao"
+        ],
+        "props":{
+            "blockClass":"category-menu-row",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#submenu-categorias":{
+        "children":[
+            
+            "menu-item#esportes",
+            "menu-item#tatuagem",
+            "menu-item#melissa",
+            "menu-item#calcados",
+            "menu-item#roupas",
+            "menu-item#acessorios",
+            "menu-item#animeecosplay",
+            "menu-item#musica",
+            "menu-item#utilidadesedecoracao",
+            "menu-item#bazar"
+        ],
+        "props":{
+            "blockClass": "category-menu-col1",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "menu-item#esportes":{        
+        "props":{
+            "id": "menu-item#esportes",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/esportes",
+                "noFollow": false,
+                "tagTitle": "ESPORTES",
+                "text": "ESPORTES"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#esportes"]
+    },
+
+    "vtex.menu@2.x:submenu#esportes":{
+        "children":[
+            "flex-layout.row#esportes"
+        ],
+        "props":{
+            "width":"100%"
+        }
+    },
+
+    "flex-layout.row#esportes":{
+        "children":[
+            "flex-layout.col#esportes-1"
+        ],
+        "props": {
+            "blockClass":"category-menu-row",
+            "horizontalAlign":"left",
+            "fullWidth":true
+        }
+    },
+
+    "flex-layout.col#esportes-1":{
+        "children":[
+            "menu-item#patins",
+            "menu-item#pecas",
+            "menu-item#protecao",
+            "menu-item#shapes",
+            "menu-item#longboard",
+            "menu-item#skates"
+        ],
+        "props": {
+            "horizontalAlign":"left"
+        }
+    },
+
+    "menu-item#patins":{
+        "props":{
+            "id": "menu-item#patins",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/patins",
+                "noFollow": false,
+                "tagTitle": "PATINS",
+                "text": "PATINS"
+            }
+        }
+    },
+
+    "menu-item#pecas":{
+        "props":{
+            "id": "menu-item#pecas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/pecas",
+                "noFollow": false,
+                "tagTitle": "PEÇAS",
+                "text": "PEÇAS"
+            }
+        }
+    },
+    "menu-item#protecao":{
+        "props":{
+            "id": "menu-item#PROTECAO",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/protecao",
+                "noFollow": false,
+                "tagTitle": "PROTEÇÃO",
+                "text": "PROTEÇÃO"
+            }
+        }
+    },
+    "menu-item#shapes":{
+        "props":{
+            "id": "menu-item#SHAPES",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/shapes",
+                "noFollow": false,
+                "tagTitle": "SHAPES",
+                "text": "SHAPES"
+            }
+        }
+    },
+    "menu-item#longboard":{
+        "props":{
+            "id": "menu-item#LONGBOARD",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/longboards",
+                "noFollow": false,
+                "tagTitle": "LONGBOARDS",
+                "text": "LONGBOARDS"
+            }
+        }
+    },
+    "menu-item#skates":{
+        "props":{
+            "id": "menu-item#SKATES",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/skates",
+                "noFollow": false,
+                "tagTitle": "SKATES",
+                "text": "SKATES"
+            }
+        }
+    },
+
+    "menu-item#tatuagem":{        
+        "props":{
+            "id": "menu-item#tatuagem",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tatuagem",
+                "noFollow": false,
+                "tagTitle": "TATUAGEM",
+                "text": "TATUAGEM"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tatuagem"]
+    },
+
+    "vtex.menu@2.x:submenu#tatuagem":{
+        "children":[
+            "flex-layout.row#tatuagem"
+        ],
+        "props":{
+            "width":"100%"
+        }
+    },
+
+    "flex-layout.row#tatuagem":{
+        "children":[
+            "flex-layout.col#tatuagem-1"
+        ],
+        "props": {
+            "blockClass":"category-menu-row",
+            "horizontalAlign":"left",
+            "fullWidth":true
+        }
+    },
+
+    "flex-layout.col#tatuagem-1":{
+        "children":[
+            "menu-item#acessoriostattoo",
+            "menu-item#bioseguranca",
+            "menu-item#biqueiras",
+            "menu-item#episecremes",
+            "menu-item#maquinas",
+            "menu-item#titas",
+            "menu-item#agulhas",
+            "menu-item#luvasdescartaveis"
+        ],
+        "props": {
+            "horizontalAlign":"left"
+        }
+    },
+
+    "menu-item#acessoriostattoo":{
+        "props":{
+            "id": "menu-item#acessoriostatto",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios",
+                "noFollow": false,
+                "tagTitle": "ACESSÓRIOS",
+                "text": "ACESSÓRIOS"
+            }
+        }
+    },
+    "menu-item#bioseguranca":{
+        "props":{
+            "id": "menu-item#BIOSEGURANCA",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bioseguranca",
+                "noFollow": false,
+                "tagTitle": "BIOSEGURANÇA",
+                "text": "BIOSEGURANÇA"
+            }
+        }
+    },
+    "menu-item#biqueiras":{
+        "props":{
+            "id": "menu-item#biqueiras",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/biqueiras",
+                "noFollow": false,
+                "tagTitle": "BIQUEIRAS",
+                "text": "BIQUEIRAS"
+            }
+        }
+    },
+    "menu-item#episecremes":{
+        "props":{
+            "id": "menu-item#episecremes",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/epis-e-cremes",
+                "noFollow": false,
+                "tagTitle": "EPIS E CREMES",
+                "text": "EPIS E CREMES"
+            }
+        }
+    },
+    "menu-item#maquinas":{
+        "props":{
+            "id": "menu-item#maquinas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/maquinas",
+                "noFollow": false,
+                "tagTitle": "MÁQUINAS",
+                "text": "MÁQUINAS"
+            }
+        }
+    },
+    "menu-item#titas":{
+        "props":{
+            "id": "menu-item#tintas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tintas",
+                "noFollow": false,
+                "tagTitle": "TINTAS",
+                "text": "TINTAS"
+            }
+        }
+    },
+    "menu-item#agulhas":{
+        "props":{
+            "id": "menu-item#agulhas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/agulhas",
+                "noFollow": false,
+                "tagTitle": "AGULHAS",
+                "text": "AGULHAS"
+            }
+        }
+    },
+    "menu-item#luvasdescartaveis":{
+        "props":{
+            "id": "menu-item#luvasdescartaveis",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/luvas-descartaveis",
+                "noFollow": false,
+                "tagTitle": "LUVAS DESCARTAVEIS",
+                "text": "LUVAS DESCARTAVEIS"
+            }
+        }
+    },
+
+    "menu-item#melissa":{        
+        "props":{
+            "id": "menu-item#melissa",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/melissa",
+                "noFollow": false,
+                "tagTitle": "MELISSA",
+                "text": "MELISSA"
+            }
+        }
+    },
+
+    "menu-item#calcados":{        
+        "props":{
+            "id": "menu-item#calcados",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados",
+                "noFollow": false,
+                "tagTitle": "CALÇADOS",
+                "text": "CALÇADOS"
+            }
+        }
+    },
+
+    "menu-item#roupas":{        
+        "props":{
+            "id": "menu-item#roupas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/roupas",
+                "noFollow": false,
+                "tagTitle": "ROUPAS",
+                "text": "ROUPAS"
+            }
+        }
+    },
+
+    "menu-item#acessorios":{        
+        "props":{
+            "id": "menu-item#acessorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios",
+                "noFollow": false,
+                "tagTitle": "ACESSÓRIOS",
+                "text": "ACESSÓRIOS"
+            }
+        }
+    },
+
+    "menu-item#animeecosplay":{        
+        "props":{
+            "id": "menu-item#animeecosplay",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/anime-e-cosplay",
+                "noFollow": false,
+                "tagTitle": "ANIME E COSPLAY",
+                "text": "ANIME E COSPLAY"
+            }
+        }
+    },
+
+    "menu-item#musica":{        
+        "props":{
+            "id": "menu-item#musica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/musica",
+                "noFollow": false,
+                "tagTitle": "MUSICA",
+                "text": "MUSICA"
+            }
+        }
+    },
+
+    "menu-item#utilidadesedecoracao":{        
+        "props":{
+            "id": "menu-item#utilidadesedecoracao",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/utilidades-e-decoracao",
+                "noFollow": false,
+                "tagTitle": "UTILIDADES E DECORAÇÃO",
+                "text": "UTILIDADES E DECORAÇÃO"
+            }
+        }
+    },
+
+    "menu-item#bazar":{        
+        "props":{
+            "id": "menu-item#bazar",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bazar",
+                "noFollow": false,
+                "tagTitle": "BAZAR",
+                "text": "BAZAR"
+            }
+        }
+    }
+}

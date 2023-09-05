@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#labella-banner-home": {
+        "children":[
+            "image#banner-labella"
+        ]
+    },
+
+    "flex-layout.row#labella-shelf-home": {
+        "children":[
+            "list-context.product-list#labella"
+        ],
+        "props":{
+            "blockClass": "home__row"
+          }
+    },
+
+    "image#banner-labella": {
+        "props": {
+            "src": "assets/imgs/home/gr-banner-labellamafia.webp"
+        }
+    },
+
+    "list-context.product-list#labella": {
+        "blocks": ["product-summary.shelf#labella"],
+        "children": ["slider-layout#labella"],
+        "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "category": "4"
+        }
+      },
+
+      "slider-layout#labella": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "showPaginationDots": "never",
+          "blockClass": "shelf"
+        }
+      },
+
+      "product-summary.shelf#labella": {
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price"
+        ]
+    }
+}

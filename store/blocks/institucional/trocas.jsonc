@@ -1,0 +1,39 @@
+{
+    "disclosure-layout#trocas": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#trocas", "disclosure-content#trocas"]
+    },
+
+    "disclosure-trigger#trocas":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#trocas-pergunta"
+        ]
+    }, 
+    "disclosure-content#trocas":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#trocas-resposta"
+        ]
+    },
+
+    "rich-text#trocas-pergunta":{
+        "props":{
+            "text": "TROCAS E DEVOLUÇÕES"
+    }
+    },
+    
+    "rich-text#trocas-resposta":{
+        "props":{
+            "text": "### Atenção! \n Solicitar a devolução é muito simples, entre em contato com nossa equipe através do WhatsApp e notifique nossos atendentes, tire suas dúvidas e receba as orientações necessárias. \n A devolução deve ocorrer em até 07 (sete) dias corridos após o recebimento do seu pedido e passará por uma análise prévia através do atendimento via WhatsApp. \n ### Regras Básicas para Devolução: \n – Envie todos os itens da solicitação de devolução; \n – Sua compra deve ser devolvida em sua embalagem original;\n – Sua compra não pode conter indícios de uso;\n – Sua compra deve ser enviado juntamente com a nota fiscal\n \n ### Para devolução:\n – Você deverá se dirigir a uma agência própria dos Correios\n – O produto deve ser devolvido sem uso, em sua embalagem original e acompanhado das etiquetas e acessórios e nota fiscal que foram entregues com ele;.\n – Como regra dos Correios, a Nota Fiscal do pedido precisa ser apresentada pelo cliente junto com o pacote que será postado e será fixada na parte externa da embalagem. Nas situações em que a Nota Fiscal estiver na parte interna do pacote, é necessário preencher a Declaração de Conteúdo disponível nas agências dos Correios. - Não nos responsabilizamos pelos custos com frete para troca. \n Assim que recebido o produto em nossa loja, será realizada uma segunda análise de qualidade para que possamos seguir com os próximos passos da troca.\n  ### Importante!\n Pedidos de troca de Produtos com defeito devem ser realizados em até 07 (sete) dias corridos após o recebimento do seu pedido. Não aceitaremos devoluções de produtos com evidências de mau uso.\n Em caso de devolução de produtos recebidos com embalagem avariada ou danificado deve ser realizada em até 48h a contar do recebimento. Os custos com os fretes para troca são de responsabilidade do solicitante."
+        }
+    }
+}

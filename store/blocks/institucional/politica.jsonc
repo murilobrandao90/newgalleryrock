@@ -1,0 +1,45 @@
+{
+    "disclosure-layout#politica": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#politica", "disclosure-content#politica"]
+    },
+
+    "disclosure-trigger#politica":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#politica-pergunta"
+        ]
+    }, 
+    "disclosure-content#politica":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#politica-resposta"
+        ]
+    },
+
+    "rich-text#politica-pergunta":{
+        "props":{
+            "text": "POLITICA DE PRIVACIDADE"
+        }
+    },
+
+    "rich-text#politica-resposta":{
+        "props":{
+            "text": "A Gallery Rock é tem compromisso total com os seus cliente e temos o dever de garantir a segurança sobre todas as informações que são coletadas em nosso e-commerce. Você está em um ambiente 100% seguro, portanto fique tranquilo (a) para comprar! Sua informações são protegidas por tecnologia SSL (Secure Socket Layer) isso faz com que todas as informações transacionadas em nosso site sejam criptografadas, impossibilitando a transmissão e acesso por terceiros. Para a Gallery Rock a garantia da segurança nas informações de nossos clientes é imprescindível. Jamais suas informações coletadas serão vendidas ou cedida para terceiros, as informações pessoais (nome, endereço, etc.) ficam armazenadas exclusivamente para facilitar a sua experiência de compra (relembrando seus dados em compras futuras), estatísticas genéricas, ações de marketing, perfis de clientes e emissão de nota fiscal. Nosso sistema não tem acesso aos dados de cartão de crédito ou informações confidenciais como senha. No momento da realização do cadastro em nosso site, você poderá escolher a opção de receber ou não nossos e-mails e newsletters. O envio será feito apenas com o consentimento do cliente e o recebimento poderá ser cancelado a qualquer momento no link dos próprios e-mails. O conteúdo dos envios é informativo, com novidades, dicas, assuntos relevantes e promoções da loja. O envio de e-mails sem autorização prévia é prática de SPAM, sendo a Gallery Rock totalmente contra. Toda e qualquer cópia, alteração ou extração de informações contidas neste site, total ou parcialmente, sem expressa autorização anterior da Gallery Rock, submete o infrator às devidas penas civis e criminais aplicadas ao caso. Nós da Gallery Rock utilizamos os cookies apenas para reconhecer um visitante constante e melhorar sua experiência de compra. São pequenos arquivos de dados, que não armazenam dados pessoais. Você pode apagá-los quando julgar necessário, através do seu navegador/browser."
+    }
+    },
+
+    "image#politica":{
+        "props":{
+            "src": "assets/imgs/institucional/agalleryrock.png"
+        }
+    }
+}

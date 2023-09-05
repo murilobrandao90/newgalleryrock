@@ -1,0 +1,245 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+.flexRow--deals {
+  background-color: #0F3E99;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--search__row{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.menu-rock-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexRowContent--main-header{
+  background-color: white;
+}
+
+.flexRow--deals__row{
+  background-color: #4D4D4D;  
+  font-size: 1vw;
+}
+
+.flexRow--category-menu-row{
+  width: 100%;  
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.flexColChild--category-menu-col1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexColChild--category-menu-col2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexRow--home__row{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+}
+
+.flexCol--mosaico__col2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.flexCol--mosaico__col-left{
+  display: flex;
+  align-items: flex-end;
+}
+
+.flexCol--mosaico__col-right{
+  display: flex;
+  align-items: flex-start;
+}
+
+.flexCol--deals__col{
+  flex-direction: row;
+}
+
+.flexRow--footer__row-2{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  border-top: #4D4D4D;
+  border-top-width: 1px;
+}
+
+.flexRow--quem-somos-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexRow--politica-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexRow--trocas-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexRow--entrega-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexRow--pagamentos-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexRow--promocoes-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexRow--onde-texto{
+  visibility: hidden;
+  position: absolute;
+}
+
+.flexCol--footer-col{
+  background-color: #ff6705;
+  border-radius: 20px;
+  margin-right: 15px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.flexCol--footer__atendimento{
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+}
+
+.flexCol--footer__zap{
+  flex-direction: row;
+}
+
+.flexRow--home-marcas__flex-row{
+  align-items: center;
+
+}
+
+.flexRow--institucional__titulo{
+  margin-top: 100px;
+}
+
+.flexRow--footer__row__laranja{
+  height: 3vw;
+  margin-top: 1vw;
+  background-color: #ff6705;
+}

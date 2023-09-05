@@ -1,0 +1,20 @@
+// store/blocks/home.jsonc
+{
+  "store.home": {
+    "children": 
+    [
+      "list-context.image-list#banner",
+      "flex-layout.row#deals",
+      "flex-layout.row#text-produtos-1",
+      "flex-layout.row#produtos-1",
+      "flex-layout.row#marcas",
+      "flex-layout.row#mosaico",
+      "flex-layout.row#text-produtos-2",
+      "flex-layout.row#produtos-2",
+      "flex-layout.row#labella-banner-home",
+      "flex-layout.row#labella-shelf-home",
+      "rich-text#nossaslojas",
+      "flex-layout.row#slider-lojas"
+    ]
+  }
+}

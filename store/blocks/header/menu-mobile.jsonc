@@ -1,0 +1,20 @@
+{
+    "vtex.menu@2.x:menu#websites-mobile":{
+        "children":[
+            "category-menu"
+            //"menu-item#roupas2",
+            //"menu-item#calcados2",
+            //"menu-item#acessorios2",
+            //"menu-item#rock2",
+            //"menu-item#bazar2"
+        ]
+    },"category-menu": {
+        "props": {
+          "showAllDepartments": true,
+          "showSubcategories": true,
+          "menuDisposition": "center",
+          "departments": [1, 25],
+          "sortSubcategories": "name"
+        }
+      }
+}

@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#mosaico":{
+        "children":[
+            "flex-layout.col#1-mosaico",
+            "flex-layout.col#2-mosaico",
+            "flex-layout.col#3-mosaico"
+        ],
+        "props":{
+            "blockClass": "home__row",
+            "marginTop": 6,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#1-mosaico":{
+        "children":[
+            "image#1-1-mosaico",
+            "image#1-2-mosaico"
+        ],
+        "props": {
+            "blockClass": "mosaico__col-left",
+            "horizontalAlign": "right",
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle"
+        }
+    },
+
+    "image#1-1-mosaico":{
+        "props":{
+            "link":{
+                "url": "roupas/feminino?_c=roupas&map=c,ft"
+            },
+            "src": "assets/imgs/home/mosaico/mosaico-1.webp"
+        }
+    },
+
+    "image#1-2-mosaico":{
+        "props":{
+            "link":{
+                "url": "calcados"
+            },
+            "src": "assets/imgs/home/mosaico/mosaico-2.webp"
+        }
+    },
+
+    "flex-layout.col#2-mosaico":{
+        "children":["image#2-mosaico"],
+        "props": {
+            "blockClass": "mosaico__col2",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "image#2-mosaico":{
+        "props":{
+            "link":{
+                "url": "roupas/camisetas-de-rock"
+            },
+            "src": "assets/imgs/home/mosaico/mosaico-3.png"
+        }
+    },
+
+    "flex-layout.col#3-mosaico":{
+        "children":[
+            "image#3-1-mosaico",
+            "image#3-2-mosaico"
+        ],
+        "props": {
+            "blockClass": "mosaico__col-right",
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle"
+        }
+    },
+
+    "image#3-1-mosaico":{
+        "props":{
+            "link":{
+                "url": "roupas/masculino?_c=roupas&map=c,ft"
+            },
+            "src": "assets/imgs/home/mosaico/mosaico-4.webp"
+        }
+    },
+
+    "image#3-2-mosaico":{
+        "props":{
+            "link":{
+                "url": "acessorios"
+            },
+            "src": "assets/imgs/home/mosaico/mosaico-5.webp"
+        }
+    }
+
+}

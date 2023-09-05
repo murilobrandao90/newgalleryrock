@@ -1,0 +1,40 @@
+{
+   
+    "disclosure-layout#entrega": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#entrega", "disclosure-content#entrega"]
+    },
+
+    "disclosure-trigger#entrega":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#entrega-pergunta"
+        ]
+    }, 
+    "disclosure-content#entrega":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#entrega-resposta"
+        ]
+    },
+
+    "rich-text#entrega-pergunta":{
+        "props":{
+            "text": "POLÍTICA DE ENTREGA - FRETES"
+    }
+    },
+    
+    "rich-text#entrega-resposta":{
+        "props":{
+            "text": "### PRAZO \n O prazo de entrega da compra pode variar de acordo com a região do país, disponibilidade do produto e forma de pagamento. O cálculo do frete e o prazo de entrega podem ser simulados ao adicionar os produtos de interesse no carrinho de compras, basta informar o CEP e CALCULAR FRETE e após adicionar a informação basta clicar em BOTÃO CALCULAR. Em seguida, o sistema automaticamente irá informar o prazo estimado para entrega e o valor do frete.\n ### Importante: \nSeja qual for a circunstância, o prazo de entrega passa a valer após a confirmação de pagamento de seu pedido e aprovação do mesmo pela instituição financeira. \n Os prazos são fornecidos pelo serviço dos CORREIOS e não temos controle ao serviço de terceiros, em casos de greve e áreas de risco o prazo pode sofrer alterações.\n ### Promoção Frete grátis: \n Frete grátis em compras a partir R$250,00.Válida para envios via PAC.Promoção sujeita a alteração sem aviso prévio.\n Após a confirmação do seu pagamento, o prazo de entrega pode variar de acordo com a sua região e com a modalidade de envio escolhida em sua compra.\n Em caso de greves dos meios de transportes os prazos podem ser impactados e sofrer alterações. Áreas de Risco sinalizadas pelo Serviço dos Correios também podem sofrer impactos em relação ao prazo do frete. Estes casos são passados pelos Correios, não temos nenhuma ligação com este prazo."
+        }
+    }
+}

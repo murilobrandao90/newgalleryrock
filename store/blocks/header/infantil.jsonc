@@ -1,0 +1,312 @@
+{
+    "menu-item#infantil1":{
+        "props":
+        {
+            "blockClass":"menu-infantil1",
+            "id": "menu-item#infantil1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/infantil-juvenil",
+                "noFollow": false,
+                "tagTitle": "infantil",
+                "text": "INFANTIL"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#infantil1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#infantil1":{
+        "children":["flex-layout.row#submenu-infantil1"],
+        "props": {
+            "width": "100%"
+          }
+    },
+    
+    "flex-layout.row#submenu-infantil1":{
+        "children": [
+            "flex-layout.col#submenu-infantil1",
+            "flex-layout.col#submenu-infantil2",
+            "flex-layout.col#submenu-infantil3",
+            "flex-layout.col#submenu-infantil4"
+        ],
+        "props":{            
+            "blockClass":"category-menu-row"
+        }
+    },
+    
+    "flex-layout.col#submenu-infantil1":{
+        "children":[
+            "menu-item#bermudas-e-shorts2",
+            "menu-item#body2",
+            "menu-item#bones2",
+            "menu-item#calcado-infantil-e-juvenil",
+            "menu-item#calcados-bebe",
+            "menu-item#calcas2",
+            "menu-item#camisetas-de-rock"
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-infantil2":{
+        "children":[
+            "menu-item#camisetas-e-regatas",
+            "menu-item#casacos-e-jaquetas2",
+            "menu-item#conjunto-infantil-e-bebe2",
+            "menu-item#meias2",
+            "menu-item#moletons-de-marca2",
+            "menu-item#patins-protecao",
+            "menu-item#pijamas-fantasia"
+        ],
+        "props":{
+            "width":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-infantil3":{
+        
+    },
+    
+    "flex-layout.col#submenu-infantil4":{
+        "children":["image#infantil4"],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+
+    "menu-item#bermudas-e-shorts2":{
+        "props":
+        {
+            "blockClass":"menu-bermudas-e-shorts",
+            "id": "menu-item#bermudas-e-shorts",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/bermudas-e-shorts",
+                "noFollow": false,
+                "tagTitle": "BERMUDAS E SHORTS",
+                "text": "BERMUDAS E SHORTS"
+            }
+        }
+    },
+    "menu-item#body2":{
+        "props":
+        {
+            "blockClass":"menu-body",
+            "id": "menu-item#body",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/body",
+                "noFollow": false,
+                "tagTitle": "BODY",
+                "text": "BODY"
+            }
+        }
+    },
+    "menu-item#bones2":{
+        "props":
+        {
+            "blockClass":"menu-bones",
+            "id": "menu-item#bones",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/bones",
+                "noFollow": false,
+                "tagTitle": "BONES",
+                "text": "BONES"
+            }
+        }
+    },
+    "menu-item#calcado-infantil-e-juvenil":{
+        "props":
+        {
+            "blockClass":"menu-calcado-infantil-e-juvenil",
+            "id": "menu-item#calcado-infantil-e-juvenil",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/calcado-infantil-e-juvenil",
+                "noFollow": false,
+                "tagTitle": "CALÇADOS",
+                "text": "CALÇADOS"
+            }
+        }
+    },
+
+    "menu-item#calcados-bebe":{
+        "props":
+        {
+            "blockClass":"menu-calcados-bebe",
+            "id": "menu-item#calcados-bebe",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/calcados-bebe",
+                "noFollow": false,
+                "tagTitle": "CALÇADOS BEBE",
+                "text": "CALÇADOS BEBE"
+            }
+        }
+    },
+    "menu-item#calcas2":{
+        "props":
+        {
+            "blockClass":"menu-calcas",
+            "id": "menu-item#calcas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/calcas",
+                "noFollow": false,
+                "tagTitle": "CALÇAS",
+                "text": "CALÇAS"
+            }
+        }
+    },
+    "menu-item#camisetas-de-rock":{
+        "props":
+        {
+            "blockClass":"menu-camisetas-de-rock",
+            "id": "menu-item#camisetas-de-rock",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/camisetas-de-rock",
+                "noFollow": false,
+                "tagTitle": "CAMISETAS DE ROCK",
+                "text": "CAMISETAS DE ROCK"
+            }
+        }
+    },
+    "menu-item#camisetas-e-regatas":{
+        "props":
+        {
+            "blockClass":"menu-camisetas-e-regatas",
+            "id": "menu-item#camisetas-e-regatas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/camisetas-e-regatas",
+                "noFollow": false,
+                "tagTitle": "CAMISETAS E REGATAS",
+                "text": "CAMISETAS E REGATAS"
+            }
+        }
+    },
+    "menu-item#casacos-e-jaquetas2":{
+        "props":
+        {
+            "blockClass":"menu-casacos-e-jaquetas",
+            "id": "menu-item#casacos-e-jaquetas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/casacos-e-jaquetas",
+                "noFollow": false,
+                "tagTitle": "CASACOS E JAQUETAS",
+                "text": "CASACOS E JAQUETAS"
+            }
+        }
+    },
+    "menu-item#conjunto-infantil-e-bebe2":{
+        "props":
+        {
+            "blockClass":"menu-conjunto-infantil-e-bebe",
+            "id": "menu-item#conjunto-infantil-e-bebe",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/conjunto-infantil-e-bebe",
+                "noFollow": false,
+                "tagTitle": "CONJUNTO",
+                "text": "CONJUNTO"
+            }
+        }
+    },
+    "menu-item#meias2":{
+        "props":
+        {
+            "blockClass":"menu-meias",
+            "id": "menu-item#meias",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/meias",
+                "noFollow": false,
+                "tagTitle": "MEIAS",
+                "text": "MEIAS"
+            }
+        }
+    },
+    "menu-item#moletons-de-marca2":{
+        "props":
+        {
+            "blockClass":"menu-moletons-de-marca",
+            "id": "menu-item#moletons-de-marca",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/moletons-de-marca",
+                "noFollow": false,
+                "tagTitle": "MOLETONS DE MARCA",
+                "text": "MOLETONS DE MARCA"
+            }
+        }
+    },
+    "menu-item#patins-protecao":{
+        "props":
+        {
+            "blockClass":"menu-patins-protecao",
+            "id": "menu-item#patins-protecao",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/patins-protecao",
+                "noFollow": false,
+                "tagTitle": "PATINS E PROTEÇÃO",
+                "text": "PATINS E PROTEÇÃO"
+            }
+        }
+    },
+    "menu-item#pijamas-fantasia":{
+        "props":
+        {
+            "blockClass":"menu-pijamas-fantasia",
+            "id": "menu-item#pijamas-fantasia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "infantil-juvenil/pijamas-fantasias?initialMap=c&initialQuery=infantil-juvenil&map=category-1,category-2",
+                "noFollow": false,
+                "tagTitle": "PIJAMAS E FANTASIAS",
+                "text": "PIJAMAS E FANTASIAS"
+            }
+        }
+    },
+    
+    "image#infantil4":{
+        "props":{
+            "src":"assets/imgs/submenu/dropdown-marcas-2.webp"
+        }
+    }
+}

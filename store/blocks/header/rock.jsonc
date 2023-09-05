@@ -1,0 +1,179 @@
+{
+    "menu-item#rock1":{
+        "props":
+        {
+            "blockClass":"menu-rock1",
+            "id": "menu-item#rock1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/rock",
+                "noFollow": false,
+                "tagTitle": "ROCK",
+                "text": "ROCK"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#rock1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#rock1":{
+        "children":["flex-layout.row#submenu-rock1"],
+        "props": {
+            "width": "100%"
+          }
+    },
+    
+    "flex-layout.row#submenu-rock1":{
+        "children": [
+            "flex-layout.col#submenu-rock1",
+            "flex-layout.col#submenu-rock2",
+            "flex-layout.col#submenu-rock3",
+            "flex-layout.col#submenu-rock4"
+        ],
+        "props":{            
+            "blockClass":"category-menu-row"
+        }
+    },
+    
+    "flex-layout.col#submenu-rock1":{
+        "children":[
+            "menu-item#camisetas",
+            "menu-item#moletons",
+            "menu-item#coturno",
+            "menu-item#bandanas",
+            "menu-item#braceletes-e-pulseiras",
+            "menu-item#cintos",
+            "menu-item#colares-e-gargantilhas",
+            "menu-item#suspensorios",
+            "menu-item#cds",
+            "menu-item#dvds",
+            "menu-item#vinil"
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-rock2":{
+        "children":[],
+        "props":{
+            "width":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-rock3":{
+        
+    },
+    
+    "flex-layout.col#submenu-rock4":{
+        "children":["image#rock4"],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "menu-item#camisetas":{
+        "props":
+        {
+            "blockClass":"menu-camisetas",
+            "id": "menu-item#camisetas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "roupas/camisetas-de-rock",
+                "noFollow": false,
+                "tagTitle": "CAMISETAS",
+                "text": "CAMISETAS"
+            }
+        }
+    },
+    "menu-item#moletons":{
+        "props":
+        {
+            "blockClass":"menu-moletons",
+            "id": "menu-item#moletons",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/roupas/moletons-de-bandas",
+                "noFollow": false,
+                "tagTitle": "MOLETONS",
+                "text": "MOLETONS"
+            }
+        }
+    },
+    "menu-item#coturno":{
+        "props":
+        {
+            "blockClass":"menu-coturno",
+            "id": "menu-item#coturno",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados/vilela-boots?initialMap=b&initialQuery=vilela-boots&map=category-1,brand",
+                "noFollow": false,
+                "tagTitle": "COTURNOS",
+                "text": "COTURNOS"
+            }
+        }
+    },
+    "menu-item#cds":{
+        "props":
+        {
+            "blockClass":"menu-cds",
+            "id": "menu-item#cds",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/cds/rock?fuzzy=0&initialMap=ft&initialQuery=rock&map=category-2,ft&operator=and",
+                "noFollow": false,
+                "tagTitle": "CD'S",
+                "text": "CD'S"
+            }
+        }
+    },
+    "menu-item#dvds":{
+        "props":
+        {
+            "blockClass":"menu-dvds",
+            "id": "menu-item#dvds",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/dvds/rock?fuzzy=0&initialMap=ft&initialQuery=rock&map=category-2,ft&operator=and",
+                "noFollow": false,
+                "tagTitle": "DVD'S",
+                "text": "DVD'S"
+            }
+        }
+    },
+    "menu-item#vinil":{
+        "props":
+        {
+            "blockClass":"menu-vinil",
+            "id": "menu-item#vinil",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/vinil/rock?fuzzy=0&initialMap=ft&initialQuery=rock&map=category-2,ft&operator=and",
+                "noFollow": false,
+                "tagTitle": "VINIL",
+                "text": "VINIL"
+            }
+        }
+    },
+    
+    "image#rock4":{
+        "props":{
+            "src":"assets/imgs/submenu/dropdown-rock-1.webp"
+        }
+    }
+}

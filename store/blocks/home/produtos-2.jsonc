@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#text-produtos-2": {
+        "children": [ "rich-text#produtos-2" ],
+        "props":{
+          "blockClass": "home__row",
+          "horizontalAlign": "left",
+          "fullWidth": true
+        }
+    },
+
+    "rich-text#produtos-2": {
+        "props":{
+          "textPosition":"CENTER",
+            "text" : "### **BAZAR**",
+            "textColor": "red"
+        }
+    },
+
+    "flex-layout.row#produtos-2": {
+        "children": ["list-context.product-list#produtos-2"],
+        "props":{
+          "blockClass": "home__row"
+        }
+    },
+
+    "list-context.product-list#produtos-2": {
+        "blocks": ["product-summary.shelf#produtos-2"],
+        "children": ["slider-layout#produtos-2"],
+        "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "category": "104"
+        }
+      },
+      "slider-layout#produtos-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "showPaginationDots": "never",
+          "blockClass": "shelf"
+        }
+    },
+
+    "product-summary.shelf#produtos-2": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    
+    "disclosure-layout#pagamentos": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#pagamentos", "disclosure-content#pagamentos"]
+    },
+
+    "disclosure-trigger#pagamentos":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#pagamentos-pergunta"
+        ]
+    }, 
+    "disclosure-content#pagamentos":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#pagamentos-resposta"
+        ]
+    },
+
+    "rich-text#pagamentos-pergunta":{
+        "props":{
+            "text": "PAGAMENTOS"
+    }
+    },
+    
+    "rich-text#pagamentos-resposta":{
+        "props":{
+            "text": "### Cartão de débito e crédito\n \n Para compras com cartão de crédito o prazo para aprovação pode ser imediato ou pode levar até 24 horas, essa aprovação parte da operadora do cartão, passando por uma verificação de segurança para dados cadastrais informados.\n ### Boleto Bancário\n \n No caso de pagamentos através de boleto bancário, o prazo de confirmação pode levar entre 2 – 3 dias úteis, o prazo é estipulado pelas operadoras de pagamento e não temos controle."
+        }
+    }
+}

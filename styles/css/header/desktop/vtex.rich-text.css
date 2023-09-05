@@ -1,0 +1,78 @@
+.paragraph--deals__text{
+    font-size: 1vw;
+    color: white;
+    margin-left: 15px;
+}
+
+.paragraph--footer__copyright{
+    font-size: 12px;
+}
+
+.link--footer__links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.link--footer__links:hover {
+    color: #ff6705;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.paragraph--footer__text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragraph--footer__text__conecte{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.paragraph--footer__text__pagamento{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.paragraph--footer__zap{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    padding-top: 0px;
+}
+
+.link--footer__zap{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link--footer__zap:hover{
+    color: #ff6705;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragraph--footer__email{
+    text-decoration: none;
+    color: #ff6705;
+}
+
+.paragraph--footer__hora{
+    color: #ff6705;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paragraph--footer__gallery{
+    text-align: justify;
+}

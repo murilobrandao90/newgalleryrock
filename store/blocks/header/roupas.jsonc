@@ -1,0 +1,485 @@
+{
+    "menu-item#roupas1":{
+        "props":
+        {
+            "blockClass":"menu-roupas1",
+            "id": "menu-item#roupas1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/roupas",
+                "noFollow": false,
+                "tagTitle": "ROUPAS",
+                "text": "ROUPAS"
+            }
+        },
+    "blocks": [
+        "vtex.menu@2.x:submenu#roupas1"
+    ]
+},
+
+"vtex.menu@2.x:submenu#roupas1":{
+    "children":["flex-layout.row#submenu-roupas1"],
+    "props": {
+        "width": "100%"
+      }
+},
+
+"flex-layout.row#submenu-roupas1":{
+    "children": [
+        "flex-layout.col#submenu-roupas1",
+        "flex-layout.col#submenu-roupas2",
+        "flex-layout.col#submenu-roupas3",
+        "flex-layout.col#submenu-roupas4"
+    ],
+    "props":{            
+        "blockClass":"category-menu-row"
+    }
+},
+
+"flex-layout.col#submenu-roupas1":{
+    "children":[
+        "menu-item#bermudas-e-shorts",
+        "menu-item#biquinis-e-maios",
+        "menu-item#body",
+        "menu-item#calcas",
+        "menu-item#calcinhas",
+        "menu-item#camisetas-de-marca",
+        "menu-item#camisetas-de-personagens",
+        "menu-item#camisetass-de-rock"
+    ],
+    "props":{
+        "blockClass":"category-menu-col1"
+    }
+},
+
+"flex-layout.col#submenu-roupas2":{
+    "children":[
+        "menu-item#conjuntos",
+        "menu-item#croppeds",
+        "menu-item#cuecas",
+        "menu-item#leggings",
+        "menu-item#macacoes-e-jardineiras",
+        "menu-item#moletons-de-bandas",
+        "menu-item#moletons-de-marcas",
+        "menu-item#regatas"
+    ],
+    "props":{
+        "width":"category-menu-col1"
+    }
+},
+
+"flex-layout.col#submenu-roupas3":{
+    "children":[
+        "menu-item#casacos-e-jaquetas",
+        "menu-item#coletes",
+        "menu-item#conjunto-de-lingeries",
+        "menu-item#conjunto-infantil-e-bebe",
+        "menu-item#saias",
+        "menu-item#sutia",
+        "menu-item#top",
+        "menu-item#vestidos"
+    ],
+    "props":{
+        "blockClass":"category-menu-col1"
+    }
+},
+
+"flex-layout.col#submenu-roupas4":{
+    "children":["image#roupas4"],
+    "props":{
+        "blockClass":"category-menu-col1"
+    }
+},
+
+"menu-item#bermudas-e-shorts":{
+    "props":
+    {
+        "blockClass":"menu-bermudas-e-shorts",
+        "id": "menu-item#bermudas-e-shorts",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/roupas/bermudas-e-shorts",
+            "noFollow": false,
+            "tagTitle": "BERMUDAS E SHORTS",
+            "text": "BERMUDAS E SHORTS"
+        }
+    }
+},
+"menu-item#biquinis-e-maios":{
+    "props":
+    {
+        "blockClass":"menu-biquinis-e-maios",
+        "id": "menu-item#biquinis-e-maios",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/roupas/biquinis-e-maios",
+            "noFollow": false,
+            "tagTitle": "BIQUINIS E MAIOS",
+            "text": "BIQUINIS E MAIOS"
+        }
+    }
+},
+        "menu-item#body":{
+            "props":
+            {
+                "blockClass":"menu-body",
+                "id": "menu-item#body",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/body",
+                    "noFollow": false,
+                    "tagTitle": "BODY",
+                    "text": "BODY"
+                }
+            }
+        },
+        "menu-item#calcas":{
+            "props":
+            {
+                "blockClass":"menu-calcas",
+                "id": "menu-item#calcas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/calcas",
+                    "noFollow": false,
+                    "tagTitle": "CALÇAS",
+                    "text": "CALÇAS"
+                }
+            }
+        },
+        "menu-item#calcinhas":{
+            "props":
+            {
+                "blockClass":"menu-calcinhas",
+                "id": "menu-item#calcinhas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/calcinhas",
+                    "noFollow": false,
+                    "tagTitle": "CALCINHAS",
+                    "text": "CALCINHAS"
+                }
+            }
+        },
+        "menu-item#camisetas-de-marca":{
+            "props":
+            {
+                "blockClass":"menu-camisetas-de-marca",
+                "id": "menu-item#camisetas-de-marca",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/camisetas-de-marca",
+                    "noFollow": false,
+                    "tagTitle": "CAMISETAS DE MARCA",
+                    "text": "CAMISETAS DE MARCA"
+                }
+            }
+        },
+        "menu-item#camisetas-de-personagens":{
+            "props":
+            {
+                "blockClass":"menu-camisetas-de-personagens",
+                "id": "menu-item#camisetas-de-personagens",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/camisetas-de-personagens",
+                    "noFollow": false,
+                    "tagTitle": "CAMISETAS DE PERSONAGENS",
+                    "text": "CAMISETAS DE PERSONAGENS"
+                }
+            }
+        },
+        "menu-item#camisetass-de-rock":{
+            "props":
+            {
+                "blockClass":"menu-camisetas-de-rock",
+                "id": "menu-item#camisetas-de-rock",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/camisetas-de-rock",
+                    "noFollow": false,
+                    "tagTitle": "CAMISETAS DE ROCK",
+                    "text": "CAMISETAS DE ROCK"
+                }
+            }
+        },
+        "menu-item#casacos-e-jaquetas":{
+            "props":
+            {
+                "blockClass":"menu-casacos-e-jaquetas",
+                "id": "menu-item#casacos-e-jaquetas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/casacos-e-jaquetas",
+                    "noFollow": false,
+                    "tagTitle": "CASACOS E JAQUETAS",
+                    "text": "CASACOS E JAQUETAS"
+                }
+            }
+        },
+        "menu-item#coletes":{
+            "props":
+            {
+                "blockClass":"menu-coletes",
+                "id": "menu-item#coletes",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/coletes",
+                    "noFollow": false,
+                    "tagTitle": "COLETES",
+                    "text": "COLETES"
+                }
+            }
+        },
+        "menu-item#conjunto-de-lingeries":{
+            "props":
+            {
+                "blockClass":"menu-conjunto-de-lingeries",
+                "id": "menu-item#conjunto-de-lingeries",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/conjunto-de-lingeries",
+                    "noFollow": false,
+                    "tagTitle": "CONJUNTOS DE LINGERIES",
+                    "text": "CONJUNTOS DE LINGERIES"
+                }
+            }
+        },
+        "menu-item#conjunto-infantil-e-bebe":{
+            "props":
+            {
+                "blockClass":"menu-conjunto-infantil-e-bebe",
+                "id": "menu-item#conjunto-infantil-e-bebe",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/conjunto-infantil-e-bebe",
+                    "noFollow": false,
+                    "tagTitle": "CONJUNTO INFANTIL E BEBE",
+                    "text": "CONJUNTO INFANTIL E BEBE"
+                }
+            }
+        },
+        "menu-item#conjuntos":{
+            "props":
+            {
+                "blockClass":"menu-conjuntos",
+                "id": "menu-item#conjuntos",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/conjuntos",
+                    "noFollow": false,
+                    "tagTitle": "CONJUNTOS",
+                    "text": "CONJUNTOS"
+                }
+            }
+        },
+        "menu-item#croppeds":{
+            "props":
+            {
+                "blockClass":"menu-croppeds",
+                "id": "menu-item#croppeds",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/croppeds",
+                    "noFollow": false,
+                    "tagTitle": "CROPPEDS",
+                    "text": "CROPPEDS"
+                }
+            }
+        },
+        "menu-item#cuecas":{
+            "props":
+            {
+                "blockClass":"menu-cuecas",
+                "id": "menu-item#cuecas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/cuecas",
+                    "noFollow": false,
+                    "tagTitle": "CUECAS",
+                    "text": "CUECAS"
+                }
+            }
+        },
+        "menu-item#leggings":{
+            "props":
+            {
+                "blockClass":"menu-leggings",
+                "id": "menu-item#leggings",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/leggings",
+                    "noFollow": false,
+                    "tagTitle": "LEGGINGS",
+                    "text": "LEGGINGS"
+                }
+            }
+        },
+        "menu-item#macacoes-e-jardineiras":{
+            "props":
+            {
+                "blockClass":"menu-macacoes-e-jardineiras",
+                "id": "menu-item#macacoes-e-jardineiras",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/macacoes-e-jardineiras",
+                    "noFollow": false,
+                    "tagTitle": "MACACÕES E JARDINEIRAS",
+                    "text": "MACACÕES E JARDINEIRAS"
+                }
+            }
+        },
+        "menu-item#moletons-de-bandas":{
+            "props":
+            {
+                "blockClass":"menu-moletons-de-bandas",
+                "id": "menu-item#moletons-de-bandas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/moletons-de-bandas",
+                    "noFollow": false,
+                    "tagTitle": "MOLETONS DE BANDAS",
+                    "text": "MOLETONS DE BANDAS"
+                }
+            }
+        },
+        "menu-item#moletons-de-marcas":{
+            "props":
+            {
+                "blockClass":"menu-moletons-de-marcas",
+                "id": "menu-item#moletons-de-marcas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/moletons-de-marcas",
+                    "noFollow": false,
+                    "tagTitle": "MOLETONS DE MARCAS",
+                    "text": "MOLETONS DE MARCAS"
+                }
+            }
+        },
+        "menu-item#regatas":{
+            "props":
+            {
+                "blockClass":"menu-regatas",
+                "id": "menu-item#regatas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/regatas",
+                    "noFollow": false,
+                    "tagTitle": "REGATAS",
+                    "text": "REGATAS"
+                }
+            }
+        },
+        "menu-item#saias":{
+            "props":
+            {
+                "blockClass":"menu-saias",
+                "id": "menu-item#saias",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/saias",
+                    "noFollow": false,
+                    "tagTitle": "SAIAS",
+                    "text": "SAIAS"
+                }
+            }
+        },
+        "menu-item#sutia":{
+            "props":
+            {
+                "blockClass":"menu-sutia",
+                "id": "menu-item#sutia",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/sutia",
+                    "noFollow": false,
+                    "tagTitle": "SUTIÃ",
+                    "text": "SUTIÃ"
+                }
+            }
+        },
+        "menu-item#top":{
+            "props":
+            {
+                "blockClass":"menu-top",
+                "id": "menu-item#top",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/top",
+                    "noFollow": false,
+                    "tagTitle": "TOP",
+                    "text": "TOP"
+                }
+            }
+        },
+        "menu-item#vestidos":{
+            "props":
+            {
+                "blockClass":"menu-vestidos",
+                "id": "menu-item#vestidos",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "href": "/roupas/vestidos",
+                    "noFollow": false,
+                    "tagTitle": "VESTIDOS",
+                    "text": "VESTIDOS"
+                }
+            }
+        },
+        "image#roupas4":{
+            "props":{
+                "src":"assets/imgs/submenu/dropdown-roupas-1.webp"
+            }
+        }
+}

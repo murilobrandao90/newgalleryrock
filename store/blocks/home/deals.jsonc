@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#deals": {
+      "children": [
+        "flex-layout.col#deals1",
+        "flex-layout.col#deals2",
+        "flex-layout.col#deals3",
+        "flex-layout.col#deals4"
+      ],
+      "props": {
+        "blockClass": "deals__row",
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+  
+    "flex-layout.col#deals1": {
+      "children": [
+        "image#deal1",
+        "rich-text#deal1"
+      ],
+      "props":{
+        "blockClass": ["deals__col", "deals__col1"],
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      }
+    },
+
+    "image#deal1": {
+      "props": {
+        "src": "assets/imgs/deals/frete.png"
+      }
+    },
+
+    "rich-text#deal1": {
+        "props": {
+          "text": "ENTREGAMOS \n PARA TODO BRASIL",
+          "blockClass": "deals__text"
+        }
+    },
+
+    "flex-layout.col#deals2": {
+      "children": [
+        "image#deal2",
+        "rich-text#deal2"
+      ],
+      "props":{
+        "blockClass": ["deals__col", "deals__col2"],
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      }
+    },
+    "image#deal2": {
+      "props": {
+        "src": "assets/imgs/deals/doiscartao.png"
+        //"maxHeight": "24px"
+      }
+    },
+
+    "rich-text#deal2": {
+        "props": {
+          "text": "PARCELE EM \n ATÉ 2 CARTÕES",
+          "blockClass": "deals__text"
+        }
+    },
+    "flex-layout.col#deals3": {
+      "children": [
+        "image#deal3",
+        "rich-text#deal3"
+      ],
+      "props":{
+        "blockClass": ["deals__col", "deals__col3"],
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      }
+    },
+    "image#deal3": {
+      "props": {
+        "src": "assets/imgs/deals/segura.png"
+        //"maxHeight": "24px"
+      }
+    },
+
+    "rich-text#deal3": {
+        "props": {
+          "text": "COMPRA \n 100% SEGURA",
+          "blockClass": "deals__text"
+        }
+    },
+    "flex-layout.col#deals4": {
+      "children": [
+        "image#deal4",
+        "rich-text#deal4"
+      ],
+      "props":{
+        "blockClass": ["deals__col", "deals__col4"],
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+      }
+    },
+    "image#deal4": {
+      "props": {
+        "src": "assets/imgs/deals/cartao.png"
+        //"maxHeight": "24px"
+      }
+    },
+    
+    "rich-text#deal4": {
+        "props": {
+          "text": "ACEITAMOS TODOS \n OS CARTÕES*",
+          "blockClass": "deals__text"
+        }
+    }
+  }
+  

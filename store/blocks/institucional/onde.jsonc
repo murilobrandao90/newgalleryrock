@@ -1,0 +1,39 @@
+{
+    "disclosure-layout#onde": {
+        "props": {
+        "animated": true
+      },
+        "children": ["disclosure-trigger#onde", "disclosure-content#onde"]
+    },
+
+    "disclosure-trigger#onde":{
+            "props": {
+                "blockClass": "question",
+                "as": "div"
+            },
+        "children":[
+            "disclosure-state-indicator",
+            "rich-text#onde-pergunta"
+        ]
+    }, 
+    "disclosure-content#onde":{
+        "props": {
+            "blockClass": "answer"
+        },
+        "children":[
+            "rich-text#onde-resposta"
+        ]
+    },
+
+    "rich-text#onde-pergunta":{
+        "props":{
+            "text": "ONDE ESTAMOS"
+    }
+    },
+    
+    "rich-text#onde-resposta":{
+        "props":{
+            "text": "### ONDE ESTAMOS?\n Rua Francisco Scarpa, 281 \n Sorocaba, SP\n18035-020\n\n ### ATENDIMENTO\nSegunda à sexta-feira\ndas 09:00 às 18:00 horas\n(Exceto feriados)\n ### CONTATO\n(15) 98812-2210\n atendimento@galleryrock.com.br"
+        }
+    }
+}

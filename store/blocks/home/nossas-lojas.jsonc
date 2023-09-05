@@ -1,0 +1,221 @@
+{
+    "rich-text#nossaslojas":{
+        "props":{
+            "text":"## NOSSAS LOJAS",
+            "textPosition":"CENTER"
+        }
+    },
+
+    "flex-layout.row#slider-lojas":{
+        "children":["slider-layout#lojas"],
+        "props":{"preserveLayoutOnMobile": true}
+    },
+
+    "slider-layout#lojas": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "showPaginationDots": "never",
+          "blockClass": "carousel",
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "children": ["flex-layout.row#lojacampolim", "flex-layout.row#lojacentro"]
+      },
+
+    "flex-layout.row#lojacampolim":{
+        "children":[
+            "flex-layout.col#loja-1"
+        ],
+        "props":{
+            "blockClass": "home__row",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        }
+    },
+
+    "flex-layout.col#loja-1":{
+        "children":[
+            "flex-layout.row#lojas-end",
+            "flex-layout.row#lojas-mosaico"
+        ]
+    },
+
+    "flex-layout.row#lojas-end":{
+        "children":[
+            "rich-text#lojas-end"
+        ]
+    },
+    "rich-text#lojas-end":{
+        "props":{
+            "text": "![map](assets/imgs/home/mapa.png) AV. ANTÔNIO CARLOS COMITRE, 1240, PARQUE CAMPOLIM - SOROCABA, SP",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#lojas-mosaico":{
+        "children":[
+            "flex-layout.col#lojas-1",
+            "flex-layout.col#lojas-2",
+            "flex-layout.col#lojas-3"
+        ]
+    },
+    "flex-layout.col#lojas-1":{
+        "children":[
+            "image#lojas-1",
+            "image#lojas-2"
+        ],
+        "props":{
+            "marginRight": 3
+        }
+    },
+
+    "flex-layout.col#lojas-2":{
+        "children":[
+            "image#lojas-3",
+            "image#lojas-4"
+        ],
+        "props":{
+            "marginRight": 3
+        }
+    },
+    "flex-layout.col#lojas-3":{
+        "children":[
+            "image#lojas-5"
+        ],
+        "props": {
+            "width": "49%"
+        }
+    },
+
+    "image#lojas-1": {
+        "props":{
+            "src": "assets/imgs/home/Rectangle 29.webp"
+        }
+    },
+
+    "image#lojas-2": {
+        "props":{
+            "src": "assets/imgs/home/Rectangle 30.webp"
+        }
+    },
+
+    "image#lojas-3": {
+        "props":{
+            "src": "assets/imgs/home/Rectangle 31.webp"
+        }
+    },
+
+    "image#lojas-4": {
+        "props":{
+            "src": "assets/imgs/home/Rectangle 32.webp"
+        }
+    },
+
+    "image#lojas-5":{
+        "props":{
+            "src":"assets/imgs/home/gr-nossaslojas-grande.webp"
+        }
+    },
+
+    "flex-layout.row#lojacentro":{
+        "children":[
+            "flex-layout.col#lojac-1"
+        ],
+        "props":{
+            "blockClass": "home__row",
+            "preserveLayoutOnMobile": true
+        }
+    },
+
+    "flex-layout.col#lojac-1":{
+        "children":[
+            "flex-layout.row#lojasc-end",
+            "flex-layout.row#lojasc-mosaico"
+        ]
+    },
+
+    "flex-layout.row#lojasc-end":{
+        "children":[
+            "rich-text#lojasc-end"
+        ]
+    },
+    "rich-text#lojasc-end":{
+        "props":{
+            "text": "![map](assets/imgs/home/mapa.png) RUA FRANCISCO SCARPA, 281, CENTRO - SOROCABA, SP",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#lojasc-mosaico":{
+        "children":[
+            "flex-layout.col#lojasc-1",
+            "flex-layout.col#lojasc-2",
+            "flex-layout.col#lojasc-3"
+        ]
+    },
+    "flex-layout.col#lojasc-1":{
+        "children":[
+            "image#lojasc-1",
+            "image#lojasc-2"
+        ],
+        "props":{
+            "marginRight": 3
+        }
+    },
+
+    "flex-layout.col#lojasc-2":{
+        "children":[
+            "image#lojasc-3",
+            "image#lojasc-4"
+        ],
+        "props":{
+            "marginRight": 3
+        }
+    },
+    "flex-layout.col#lojasc-3":{
+        "children":[
+            "image#lojasc-5"
+        ],
+        "props": {
+            "width": "49%"
+        }
+    },
+
+    "image#lojasc-1": {
+        "props":{
+            "src": "assets/imgs/home/gr-nossaslojas-1.webp"
+        }
+    },
+
+    "image#lojasc-2": {
+        "props":{
+            "src": "assets/imgs/home/gr-nossaslojas-2.webp"
+        }
+    },
+
+    "image#lojasc-3": {
+        "props":{
+            "src": "assets/imgs/home/gr-nossaslojas-3.webp"
+        }
+    },
+
+    "image#lojasc-4": {
+        "props":{
+            "src": "assets/imgs/home/gr-nossaslojas-4.webp"
+        }
+    },
+
+    "image#lojasc-5":{
+        "props":{
+            "src":"assets/imgs/home/gr-nossaslojas-grande-2.webp"
+        }
+    }
+}

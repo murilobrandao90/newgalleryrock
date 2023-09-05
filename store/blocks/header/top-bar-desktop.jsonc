@@ -1,0 +1,141 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "sticky-layout#desktop"
+        ]
+    },
+
+    "sticky-layout#desktop":{
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": ["flex-layout.row#header-desktop"]
+    },
+
+    "flex-layout.row#header-desktop": {
+        "props": {
+            "blockClass": "main-header",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "flex-layout.col#category-menu",
+          "flex-layout.col#spacer",
+          "flex-layout.col#top-bar-seach",
+          "locale-switcher",
+          "login",
+          "minicart.v2"
+        ]
+      },
+
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+            "logo#top-bar-logo"
+        ]
+    },
+
+    "logo#top-bar-logo": {
+        "props": {
+            "blockClass": "main-logo",
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/imgs/top-bar/logo-gr.png",
+            "width": "90"
+        }
+    },
+    
+    "flex-layout.col#top-bar-seach": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "search-bar"
+        ]
+    },
+
+    "flex-layout.col#top-bar-login": {
+        "props": {
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle"
+        },
+        "children":[
+            "login"
+        ]
+    },
+
+    "flex-layout.col#top-bar-mini-cart": {
+        "props": {
+            "preventVerticalStretch": true
+        },
+        "children":[
+            "minicart.v2"
+        ]
+    },
+
+    "flex-layout.col#category-menu": {
+        "props":{
+            "verticalAlign":"bottom"
+        },
+        "children": ["vtex.menu@2.x:menu#websites"]
+    },
+    
+    "vtex.menu@2.x:menu#websites":{
+        "children":[
+            //"menu-item#departamentos",
+            "menu-item#rock1",
+            "menu-item#marcas1",
+            "menu-item#roupas1",
+            "menu-item#calcados1",
+            "menu-item#acessorios1",
+            "menu-item#infantil1",
+            "menu-item#bazar1"
+        ]
+    },
+
+    "menu-item#departamentos":{        
+        "props":
+        {
+            "blockClass":"menu-departamentos",
+            "id": "menu-item#departamentos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "DEPARTAMENTOS",
+                "text": "DEPARTAMENTOS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#categorias"
+        ]
+    },
+    
+    "menu-item#bazar1":{
+        "props":
+        {
+            "blockClass":"menu-bazar1",
+            "id": "menu-item#bazar1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bazar",
+                "noFollow": false,
+                "tagTitle": "BAZAR",
+                "text": "BAZAR"
+            }
+        }
+    }
+
+}

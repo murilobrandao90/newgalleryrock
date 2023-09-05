@@ -1,0 +1,527 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+
+  /*"footer-layout.desktop":{
+    "children":[
+      "flex-layout.row#spacer",
+      "flex-layout.row#footer"
+    ]
+  },
+
+  "flex-layout.row#spacer":{},
+
+  "flex-layout.row#footer":{
+    "children":[
+      "flex-layout.col#footer-col1",
+      "flex-layout.col#footer-col2",
+      "flex-layout.col#footer-col3"
+    ],
+    "props":{
+      "blockClass":"home__row"
+    }
+  },
+
+  "flex-layout.col#footer-col1":{
+    "children":[
+      "image#footer-gallery-logo",
+      "rich-text#footer-gallery-text"
+    ],
+    "props":{
+      "blockClass":"footer-col"
+    }
+  },
+
+  "image#footer-gallery-logo":{
+    "props":{
+      "src": "assets/imgs/footer/gallery-logo.png",
+      "maxHeight": "120px"
+    }
+  },
+
+  "rich-text#footer-gallery-text":{
+    "props":{
+      "blockClass": "footer__text",
+      "textAlignment": "CENTER",
+      "text": "Desde o final dos anos 90, a Gallery Rock vem escrevendo sua história entre o público roqueiro e o publico alternativo que busca por um estilo lifestyle mais descolado , no início a Gallery trabalhava exclusivamente com artigos voltado ao Rock N' Roll, como acessórios, CD's e camisetas de de Rock, hoje a Gallery trabalha com as melhores marcas do mercado como New Era, Vans, DC, Adidas, Santa Cruz, Melissa entre outras, tudo isso para que você tenha mais opções para alcançar o estilo que sempre sonhou."
+    }
+  },
+
+  "flex-layout.col#footer-col2":{
+    "children":[
+      "image#footer-institucional",
+      "rich-text#footer-institucional"
+    ],
+    "props":{
+      "blockClass":"footer-col"
+    }
+  },
+
+  "image#footer-institucional": {
+    "props":{
+      "src": "assets/imgs/footer/institucional.png",
+      "maxHeight": "60px"
+    }
+  },
+
+  "rich-text#footer-institucional":{
+    "props":{
+      "blockClass": "footer__links",
+      "textAlignment": "CENTER",
+      "text": "### [Quem Somos](/institucional) \n ### [Política de Privacidade](/institucional)\n ### [Trocas e Devoluções](/institucional) \n ### [Política de Entrega](/institucional) \n ### [Pagamentos](/institucional) \n ### [Promoções](/institucional) \n ### [Onde Estamos](/institucional)"
+    }
+  },
+
+  "flex-layout.col#footer-col3":{
+    "children":[
+      "rich-text#footer-conecte",
+      "flex-layout.row#footer-conecte",
+      "rich-text#footer-pagamento",
+      "flex-layout.row#footer-pagamento",
+      "flex-layout.row#footer-atendimento"
+    ],
+    "props":{
+      "blockClass":"footer-col"
+    }
+  },
+
+  "rich-text#footer-conecte": {
+    "props":{
+      "blockClass": "footer__text__conecte",
+      "textAlignment": "LEFT",
+      "text": "CONECTE-SE"
+    }
+  },
+
+  "flex-layout.row#footer-conecte":{
+    "children":[
+      "image#facebook",
+      "image#instagram",
+      "image#google"
+    ]
+  },
+
+  "image#facebook":{
+    "props":{
+      "src": "assets/imgs/footer/facebook.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "image#instagram":{
+    "props":{
+      "src": "assets/imgs/footer/instagram.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "image#google":{
+    "props":{
+      "src": "assets/imgs/footer/google.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#footer-pagamento" :{
+    "props":{
+      "blockClass": "footer__text__pagamento",
+      "text": "FORMAS DE PAGAMENTO"
+    }
+  },
+
+  "flex-layout.row#footer-pagamento":{
+    "children":[
+      "image#visa",
+      "image#master",
+      "image#hipercard",
+      "image#elo",
+      "image#boleto"
+    ]
+  },
+
+  "image#visa":{
+    "props":{
+      "src": "assets/imgs/footer/visa.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#master":{
+    "props":{
+      "src": "assets/imgs/footer/master.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#hipercard":{
+    "props":{
+      "src": "assets/imgs/footer/hipercard.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#elo":{
+    "props":{
+      "src": "assets/imgs/footer/elo.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#boleto":{
+    "props":{
+      "src": "assets/imgs/footer/boleto.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "flex-layout.row#footer-atendimento":{
+    "children":[
+      "flex-layout.col#footer-atendimento"
+    ],
+    "props":{
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#footer-atendimento":{
+    "children":[
+      "image#footer-atendimento",
+      //"flex-layout.row#footer-zap",
+      //"rich-text#footer-email",
+      "rich-text#footer-hora"
+    ],
+    "props":{
+      "blockClass": "footer__atendimento",
+      "width": "100%"
+    }
+  },
+
+  "image#footer-atendimento":{
+    "props":{
+      "src": "assets/imgs/footer/atendimento.png",
+      "maxHeight": "50px"
+    }
+  },
+
+  "flex-layout.row#footer-zap":{
+    "children":[
+      "image#footer-zap",
+      "rich-text#footer-zap"
+    ]
+  },
+
+  "image#footer-zap":{
+    "props":{
+      "src": "assets/imgs/footer/zap.png",
+      "maxHeight": "45px"
+    }
+  },
+
+  "rich-text#footer-zap":{
+    "props":{
+      "blockClass": "footer__zap",
+      "textAlignment": "CENTER",
+      "text": "(15) 98812-2210"
+    }
+  },
+
+  "rich-text#footer-email":{
+    "props":{
+      "blockClass": "footer__email",
+      "textAlignment": "CENTER",
+      "text": "atendimento@galleryrock.com.br"
+    }
+  },
+
+  "rich-text#footer-hora":{
+    "props":{
+      "blockClass": "footer__hora",
+      "textAlignment": "CENTER",
+      "text": "SEG. A SEX. \n 10H ÀS 17H"
+    }
+  }*/
+
+
+  
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#faixa-laranja",
+      //"image#faixa-laranja",
+      "flex-layout.row#footer-1",
+      //"image#faixa-cinza",
+      "flex-layout.row#footer-2"
+    ]
+  },
+
+  "flex-layout.row#faixa-laranja":{
+    "props":{
+      "blockClass":"footer__row__laranja"
+    }
+  },
+
+  "image#faixa-laranja":{
+    "props":{
+      "src":"assets/imgs/footer/faixalaranja.png"
+    }
+  },
+
+  "image#faixa-cinza":{
+    "props":{
+      "src":"assets/imgs/footer/faixacinza.png"
+    }
+  },
+
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2"
+    ]
+  },
+
+  "flex-layout.row#footer-1": {
+    "children": [
+      "flex-layout.col#footer-2-1",
+      "flex-layout.col#footer-2-2",
+      //"flex-layout.col#footer-2-3",
+      //"flex-layout.col#footer-2-4",
+      "flex-layout.col#footer-2-5"
+    ],
+    "props":{
+      "blockClass": "home__row"
+    }
+  },
+
+  "flex-layout.col#footer-2-1":{
+    "children":[
+      "logo#logo-footer",
+      "rich-text#gallery"
+    ],
+    "props": {
+      //"paddingLeft": 5
+      //"marginLeft": 5
+      "horizontalAlign": "center",
+      "width":"30%",
+      "verticalAlign":"top"
+    }
+  },
+
+  "logo#logo-footer": {
+    "props": {
+        "blockClass": "main-logo",
+        "title": "Logo",
+        "href": "/",
+        "url": "assets/imgs/top-bar/logo-gr.png",
+        "width": "90"
+    }
+},
+
+"rich-text#gallery":{
+  "props":{
+    "blockClass": "footer__gallery",
+    "text": "Desde o final dos anos 90, a Gallery Rock vem escrevendo sua história entre o público roqueiro e o publico alternativo que busca por um estilo lifestyle mais descolado , no início a Gallery trabalhava exclusivamente com artigos voltado ao Rock N' Roll, como acessórios, CD's e camisetas de de Rock, hoje a Gallery trabalha com as melhores marcas do mercado como New Era, Vans, DC, Adidas, Santa Cruz, Melissa entre outras, tudo isso para que você tenha mais opções para alcançar o estilo que sempre sonhou."
+  }
+},
+
+"flex-layout.col#footer-2-2":{
+  "children":["rich-text#institucional"],
+  "props": {
+    "horizontalAlign": "center",
+    "marginLeft": 10
+  }
+},
+
+"rich-text#institucional":{
+  "props":{
+    "blockClass": "footer__links",
+    "textAlignment": "CENTER",
+    "text":"## Institucional \n \n [Quem Somos](/institucional) \n [Política de Privacidade](/institucional)\n [Trocas e Devoluções](/institucional) \n [Política de Entrega](/institucional) \n [Pagamentos](/institucional) \n [Promoções](/institucional) \n [Onde Estamos](/institucional)"
+  }
+},
+
+"flex-layout.col#footer-2-3":{
+  "children": ["rich-text#maisbuscados"],
+  "props": {
+    "marginLeft": 8
+  }
+},
+
+"rich-text#maisbuscados":{
+  "props": {
+    "blockClass": "footer__links",
+    "textAlignment": "LEFT",
+    "text": "#### Mais Buscadas \n \n [CONVERSE](#) \n [CAMISETAS DE ROCK](#) \n [VILELA BOOTS](#) \n [MELISSA](#) \n [LABELLAMAFIA](#)"
+  }
+},
+
+"flex-layout.col#footer-2-4":{
+  "children":["rich-text#atendimento"],
+  "props": {
+    "horizontalAlign": "center"
+  }
+},
+
+"flex-layout.col#footer-2-5":{
+  "children":[
+    "rich-text#conectese",
+    "flex-layout.row#conectese",
+    "rich-text#pagamento",
+    "image#pagamento",
+    "rich-text#atendimento",
+    "rich-text#zap"
+  ],
+  "props": {
+    "marginLeft": 0,
+    "horizontalAlign":"center"
+  }
+},
+
+  "rich-text#conectese":{
+    "props":{
+      "blockClass": "footer__text__conecte",
+      "text" : "CONECTE-SE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#conectese":{
+    "children":[
+      "image#facebook",
+      "image#instagram",
+      "image#twitter",
+      "image#google"
+    ]
+  },
+
+  "image#facebook":{
+    "props":{
+      "link":{
+        "url": "https://www.facebook.com/GalleryRock",
+        "title": "Facebook"
+      },
+      "src":"assets/imgs/footer/facebook.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#instagram":{
+    
+    "props":{
+      "link":{
+        "url": "https://www.instagram.com/galleryrock/",
+        "title": "Instagram"
+      },
+      "src":"assets/imgs/footer/instagram.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#twitter":{
+    "props":{
+      "link":{
+        "url": "https://twitter.com/galleryrock",
+        "title": "Twitter"
+      },
+      "src":"assets/imgs/footer/twitter.png",
+      "maxHeight": "30px"
+    }
+  },
+
+  "image#google":{
+    "props":{
+      "link":{
+        "url": "https://plus.google.com/+GalleryRock",
+        "title": "Google+"
+      },
+      "src":"assets/imgs/footer/google.png",
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#pagamento":{
+
+    "props":{
+      "text": "FORMAS DE PAGAMENTO",
+      "blockClass": "footer__text__conecte",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#pagamento":{
+    "props":{
+      "blockClass": "footer_image",
+      "src":"assets/imgs/footer/pagamento.png",
+      "maxHeight": "75px"
+    }
+  },
+  "rich-text#atendimento":{
+    "props":{
+      "blockClass": "footer__text__conecte",
+      "text" : "ATENDIMENTO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#zap":{
+    "children":[
+      //"image#zap",
+      "rich-text#zap"
+    ],
+    "props":{
+      "fullWidth":true
+    }
+  },
+
+  "image#zap":{
+    "props":{
+      "src": "assets/imgs/footer/zap.png", 
+      "maxHeight": "30px"
+    }
+  },
+  "rich-text#zap":{
+    "props":{
+      "blockClass": "footer__zap",
+      "text": "[![WhatsApp](assets/imgs/footer/zap.png) (15) 98812-2210](https://wa.me/5515988122210) \n Seg. a Sex. - 10h às 17h \n [atendimento@galleryrock.com.br](mailto:atendimento@galleryrock.com.br)"
+    }
+  },
+
+"flex-layout.row#footer-2":{
+  "props":{
+   "blockClass":"footer__row-2",
+   "fullWidth": true  
+  },
+  "children":[
+    "flex-layout.col#footer-3-1",
+    "flex-layout.col#footer-3-2"
+  ]
+},
+
+"flex-layout.col#footer-3-1":{
+  "props":{
+    "width":"70%"
+  },
+  "children":["rich-text#copyright"]
+},
+
+"rich-text#copyright":{
+  "props":{
+    "blockClass": "footer__copyright",
+    "text":"COPYRIGHT 2021 GALLERY ROCK - TODOS OS DIREITOS RESERVADOS. \n GALLERY ROCK ARTIGOS DO VESTUÁRIO LDTA. \n RUA FRANCISCO SCARPA, 281 - SOROCABA, SP - 18035-020 | CNPJ: 33.950.717/0001-53"
+  }
+},
+
+"flex-layout.col#footer-3-2":{
+  "props":{
+    "horizontalAlign": "right",
+    "verticalAlign": "middle"
+  },
+  "children":["image#vtex-logo"]
+},
+
+"image#vtex-logo":{
+  "props":{
+    "src": "assets/imgs/footer/gr-footer-vtex.png"  
+  }
+}
+}
