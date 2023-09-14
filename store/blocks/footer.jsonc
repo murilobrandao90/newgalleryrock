@@ -327,8 +327,7 @@
 "flex-layout.col#footer-2-2":{
   "children":["rich-text#institucional"],
   "props": {
-    "horizontalAlign": "center",
-    "marginLeft": 10
+    "horizontalAlign": "center"
   }
 },
 
