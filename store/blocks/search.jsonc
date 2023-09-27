@@ -82,15 +82,22 @@
     "children": [
       "product-summary-image", 
       "product-summary-name",     
-      //"product-summary-sku-selector",
-      "product-summary-price"
-      //"product-summary-buy-button"
+      "product-summary-sku-selector",
+      "product-summary-price",
+      "product-identifier.summary",
+      "product-summary-buy-button"
     ]
   },
 
   "product-summary-image" :{
     "props":{
       "maxHeight": "200px"
+    }
+  },
+
+  "product-identifier.summary":{
+    "props":{
+      "blockClass":"prosuct-summary-identifier"
     }
   },
 
