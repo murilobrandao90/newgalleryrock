@@ -46,7 +46,6 @@
             "menu-item#champion",
             "menu-item#cravo-e-canela",
             "menu-item#dc-shoes",
-            "menu-item#drop-dead",
             "menu-item#ed-hardy",
             "menu-item#fila"
         ],
@@ -64,10 +63,7 @@
             "menu-item#john-john",
             "menu-item#kipling",
             "menu-item#labellamafia",
-            "menu-item#live",
-            "menu-item#lost",
             "menu-item#maria-gueixa",
-            "menu-item#mary-jane",
             "menu-item#melissa3",
             "menu-item#new-era"
             
@@ -79,7 +75,6 @@
 
     "flex-layout.col#submenu-marcas3":{
         "children":[
-            "menu-item#ous",
             "menu-item#puma",
             "menu-item#stamp-rockwear",
             "menu-item#stooge",
@@ -87,8 +82,7 @@
             "menu-item#supra",
             "menu-item#thrasher",
             "menu-item#vans",
-            "menu-item#villela-boots",
-            "menu-item#outros"
+            "menu-item#villela-boots"
         ],
         "props":{
             "blockClass":"category-menu-col1"

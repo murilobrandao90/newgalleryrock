@@ -75,7 +75,11 @@
             "menu-item#hocks",
             "menu-item#kipling1",
             "menu-item#labellamafia1",
-            "menu-item#live1"
+            "menu-item#live1",
+            "menu-item#vazio",
+            "menu-item#vazio",
+            "menu-item#vazio",
+            "menu-item#vazio"
         ]
     },
     

@@ -101,6 +101,23 @@
         ]
     },
 
+    "menu-item#vazio":{
+        "props":
+        {
+            "blockClass":"menu-vazio",
+            "id": "menu-item#vazio",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ROCK",
+                "text": ""
+            }
+        }
+    },
+
     "menu-item#departamentos":{        
         "props":
         {

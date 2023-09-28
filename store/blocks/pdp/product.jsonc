@@ -42,6 +42,7 @@
       "product-name",
       "product-price#product-details",
       "sku-selector",
+      "product-identifier.product",
       "flex-layout.row#buy-button",
       "product-description",
       "shipping-simulator",

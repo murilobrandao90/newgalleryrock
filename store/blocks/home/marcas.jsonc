@@ -2,27 +2,29 @@
     "flex-layout.row#marcas": {
         "children":["list-context.image-list#marcas"],
         "props":{
-            "blockClass": ["home-marcas__flex-row", "home__row"],
-            "fullWidth": true,
-            "horizontalAlign":"center"
+          "fullWidth": true,
+          "maxWidth": "80px",
+          "blockClass": "home-marcas__row",
+          "horizontalAlign":"center"
         }
-    },
-
-    "list-context.image-list#marcas": {
+      },
+      
+"list-context.image-list#marcas": {
     "children": ["slider-layout#marcas-images"],
     "props": {
       "preload": true,
-      "width": "70%",
+      
+      "maxWidth": "80px",
       "images": [
-        {
-          "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195612/gr-brand-vans.png?v=637677534319200000",
-          "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195612/gr-brand-vans.png?v=637677534319200000"
-        },
-        {
-          "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195616/gr-brand-labellamafia.png?v=637677534559870000",
-          "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195616/gr-brand-labellamafia.png?v=637677534559870000"
-        },
-        {
+      {
+        "image": "assets/imgs/home/marcas/1.png",
+        "mobileImage": "assets/imgs/home/marcas/1.png"
+      },
+      {
+        "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195616/gr-brand-labellamafia.png?v=637677534559870000",
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195616/gr-brand-labellamafia.png?v=637677534559870000"
+      },
+      {
           "image": "https://galleryrock.vteximg.com.br/arquivos/ids/199454/brand-maria-gueixa.png?v=637843292854370000",
           "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/199454/brand-maria-gueixa.png?v=637843292854370000"
         },
@@ -84,7 +86,7 @@
       "infinite": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "always",
-      "blockClass": "carousel",
+      "blockClass": "home-marcas__slider",
       "autoplay": {
         "timeout": 5000
       }

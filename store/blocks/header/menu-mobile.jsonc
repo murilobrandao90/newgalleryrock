@@ -1,14 +1,412 @@
 {
     "vtex.menu@2.x:menu#websites-mobile":{
         "children":[
-            "category-menu"
+          "flex-layout.row#menu-mobile"
+          //"disclosure-layout-group#menu-mobile"
+            //"category-menu"
             //"menu-item#roupas2",
             //"menu-item#calcados2",
             //"menu-item#acessorios2",
             //"menu-item#rock2",
             //"menu-item#bazar2"
         ]
-    },"category-menu": {
+    },
+
+    "flex-layout.row#menu-mobile":{
+      "children":["flex-layout.col#menu-mobile"]
+    },
+
+    "flex-layout.col#menu-mobile": {
+      "children":["disclosure-layout-group#menu-mobile"]
+    },
+    
+    "disclosure-layout-group#menu-mobile":{
+      "children":[
+        "disclosure-layout#rock",
+        "disclosure-layout#marcas",
+        "disclosure-layout#roupas",
+        "disclosure-layout#calcados",
+        "disclosure-layout#acessorios",
+        "disclosure-layout#infantil",
+        "flex-layout.row#conectese-mobile"
+      ]
+    },
+
+    "flex-layout.row#conectese-mobile":{
+      "children":[
+        "flex-layout.col#conectese-mobile-1",
+        "flex-layout.col#conectese-mobile-2",
+        "flex-layout.col#conectese-mobile-3",
+        "flex-layout.col#conectese-mobile-4"
+      ],
+      "props":{
+        "blockClass":"menu-conetese-mobile",
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.col#conectese-mobile-1":{
+      "children":[
+        "image#facebook"
+        //"image#instagram",
+        //"image#twitter",
+        //"image#google"
+      ]
+    },
+
+    "flex-layout.col#conectese-mobile-2":{
+      "children":[
+        //"image#facebook"
+        "image#instagram"
+        //"image#twitter",
+        //"image#google"
+      ]
+    },
+
+    "flex-layout.col#conectese-mobile-3":{
+      "children":[
+        //"image#facebook"
+        //"image#instagram",
+        "image#twitter"
+        //"image#google"
+      ]
+    },
+    
+    "flex-layout.col#conectese-mobile-4":{
+      "children":[
+        //"image#facebook"
+        //"image#instagram",
+        //"image#twitter",
+        "image#google"
+      ]
+    },
+
+    "disclosure-layout#rock": {
+      "props": {
+      "animated": true
+    },
+      "children": ["disclosure-trigger#rock", "disclosure-content#rock"]
+  },
+
+  "disclosure-trigger#rock":{
+          "props": {
+              "blockClass": "question",
+              "as": "div"
+          },
+      "children":[
+          "disclosure-state-indicator",
+          "rich-text#rock-pergunta"
+      ]
+  }, 
+  "disclosure-content#rock":{
+      "props": {
+          "blockClass": "answer-mobile"
+      },
+      "children":[
+        "menu-item#camisetas",
+        //"rich-text#traco",
+        //"menu-item#traco",
+        "menu-item#moletons",
+        "menu-item#coturno",
+        "menu-item#bandanas",
+        "menu-item#braceletes-e-pulseiras",
+        "menu-item#cintos",
+        "menu-item#colares-e-gargantilhas",
+        "menu-item#suspensorios",
+        "menu-item#cds",
+        "menu-item#dvds",
+        "menu-item#vinil"
+      ]
+  },
+
+  "rich-text#traco":{
+    "props":{
+      "text":"_"
+    }
+  },
+
+  "menu-item#traco":{
+    "props":
+    {
+        "blockClass":"menu-traco",
+        "id": "menu-item#traco",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/infantil-juvenil",
+            "noFollow": false,
+            "tagTitle": "infantil",
+            "text": "-"
+        }
+    }
+},
+
+  "rich-text#rock-pergunta":{
+      "props":{
+          "text": "ROCK"
+      }
+  },
+
+  "disclosure-layout#marcas": {
+    "props": {
+    "animated": true
+  },
+    "children": ["disclosure-trigger#marcas", "disclosure-content#marcas"]
+},
+
+"disclosure-trigger#marcas":{
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        },
+    "children":[
+        "disclosure-state-indicator",
+        "rich-text#marcas-pergunta"
+    ]
+}, 
+"disclosure-content#marcas":{
+    "props": {
+        "blockClass": "answer"
+    },
+    "children":[
+      "menu-item#adidas",
+      "menu-item#all-star",
+      "menu-item#calvin-klein",
+      "menu-item#champion",
+      "menu-item#cravo-e-canela",
+      "menu-item#dc-shoes",
+      "menu-item#ed-hardy",
+      "menu-item#fila",
+      "menu-item#freeday",
+      "menu-item#hocks3",
+      "menu-item#john-john",
+      "menu-item#kipling",
+      "menu-item#labellamafia",
+      "menu-item#maria-gueixa",
+      "menu-item#melissa3",
+      "menu-item#new-era",
+      "menu-item#puma",
+      "menu-item#stamp-rockwear",
+      "menu-item#stooge",
+      "menu-item#sumemo",
+      "menu-item#supra",
+      "menu-item#thrasher",
+      "menu-item#vans",
+      "menu-item#villela-boots"
+    ]
+},
+
+"rich-text#marcas-pergunta":{
+    "props":{
+        "text": "MARCAS"
+    }
+},
+
+"disclosure-layout#roupas": {
+  "props": {
+  "animated": true
+},
+  "children": ["disclosure-trigger#roupas", "disclosure-content#roupas"]
+},
+
+"disclosure-trigger#roupas":{
+      "props": {
+          "blockClass": "question",
+          "as": "div"
+      },
+  "children":[
+      "disclosure-state-indicator",
+      "rich-text#roupas-pergunta"
+  ]
+}, 
+"disclosure-content#roupas":{
+  "props": {
+      "blockClass": "answer"
+  },
+  "children":[
+    "menu-item#bermudas-e-shorts",
+    "menu-item#biquinis-e-maios",
+    "menu-item#body",
+    "menu-item#calcas",
+    "menu-item#calcinhas",
+    "menu-item#camisetas-de-marca",
+    "menu-item#camisetas-de-personagens",
+    "menu-item#camisetass-de-rock",
+    "menu-item#conjuntos",
+    "menu-item#croppeds",
+    "menu-item#cuecas",
+    "menu-item#leggings",
+    "menu-item#macacoes-e-jardineiras",
+    "menu-item#moletons-de-bandas",
+    "menu-item#moletons-de-marcas",
+    "menu-item#regatas",
+    "menu-item#casacos-e-jaquetas",
+    "menu-item#coletes",
+    "menu-item#conjunto-de-lingeries",
+    "menu-item#conjunto-infantil-e-bebe",
+    "menu-item#saias",
+    "menu-item#sutia",
+    "menu-item#top",
+    "menu-item#vestidos"
+  ]
+},
+
+"rich-text#roupas-pergunta":{
+  "props":{
+      "text": "ROUPAS"
+  }
+},
+
+"disclosure-layout#calcados": {
+  "props": {
+  "animated": true
+},
+  "children": ["disclosure-trigger#calcados", "disclosure-content#calcados"]
+},
+
+"disclosure-trigger#calcados":{
+      "props": {
+          "blockClass": "question",
+          "as": "div"
+      },
+  "children":[
+      "disclosure-state-indicator",
+      "rich-text#calcados-pergunta"
+  ]
+}, 
+"disclosure-content#calcados":{
+  "props": {
+      "blockClass": "answer"
+  },
+  "children":[
+    "menu-item#adidas1",
+    "menu-item#all-star1",
+    "menu-item#cravo-e-canela1",
+    "menu-item#dc-shoes1",
+    "menu-item#double-g",
+    "menu-item#drop-dead1",
+    "menu-item#fila1",
+    "menu-item#freeday1",
+    "menu-item#mary-jane1",
+    "menu-item#melissa1",
+    "menu-item#ous1",
+    "menu-item#puma1",
+    "menu-item#qix",
+    "menu-item#supra1",
+    "menu-item#vans1",
+    "menu-item#vilela-boots",
+    "menu-item#hocks",
+    "menu-item#kipling1",
+    "menu-item#labellamafia1",
+    "menu-item#live1"
+  ]
+},
+
+"rich-text#calcados-pergunta":{
+  "props":{
+      "text": "CALÇADOS"
+  }
+},
+
+"disclosure-layout#acessorios": {
+  "props": {
+  "animated": true
+},
+  "children": ["disclosure-trigger#acessorios", "disclosure-content#acessorios"]
+},
+
+"disclosure-trigger#acessorios":{
+      "props": {
+          "blockClass": "question",
+          "as": "div"
+      },
+  "children":[
+      "disclosure-state-indicator",
+      "rich-text#acessorios-pergunta"
+  ]
+}, 
+"disclosure-content#acessorios":{
+  "props": {
+      "blockClass": "answer"
+  },
+  "children":[
+    "menu-item#bandanas",
+    "menu-item#bolsas",
+    "menu-item#bones",
+    "menu-item#braceletes-e-pulseiras",
+    "menu-item#cadernos",
+    "menu-item#carteiras",
+    "menu-item#chaveiros",
+    "menu-item#cintos",
+    "menu-item#gorros-e-toucas",
+    "menu-item#luvas",
+    "menu-item#meia-calca",
+    "menu-item#meias",
+    "menu-item#mochilas",
+    "menu-item#pochetes",
+    "menu-item#presilhas",
+    "menu-item#relogios",
+    "menu-item#colares-e-gargantilhas",
+    "menu-item#estojos",
+    "menu-item#shoulder-bag",
+    "menu-item#suspensorios"
+  ]
+},
+
+"rich-text#acessorios-pergunta":{
+  "props":{
+      "text": "ACESSORIOS"
+  }
+},
+
+"disclosure-layout#infantil": {
+  "props": {
+  "animated": true
+},
+  "children": ["disclosure-trigger#infantil", "disclosure-content#infantil"]
+},
+
+"disclosure-trigger#infantil":{
+      "props": {
+          "blockClass": "question",
+          "as": "div"
+      },
+  "children":[
+      "disclosure-state-indicator",
+      "rich-text#infantil-pergunta"
+  ]
+}, 
+"disclosure-content#infantil":{
+  "props": {
+      "blockClass": "answer"
+  },
+  "children":[
+    "menu-item#bermudas-e-shorts2",
+    "menu-item#body2",
+    "menu-item#bones2",
+    "menu-item#calcado-infantil-e-juvenil",
+    "menu-item#calcados-bebe",
+    "menu-item#calcas2",
+    "menu-item#camisetas-de-rock",
+    "menu-item#camisetas-e-regatas",
+    "menu-item#casacos-e-jaquetas2",
+    "menu-item#conjunto-infantil-e-bebe2",
+    "menu-item#meias2",
+    "menu-item#moletons-de-marca2",
+    "menu-item#patins-protecao",
+    "menu-item#pijamas-fantasia"
+  ]
+},
+
+"rich-text#infantil-pergunta":{
+  "props":{
+      "text": "INFANTIL"
+  }
+},
+
+    
+    "category-menu": {
         "props": {
           "showAllDepartments": true,
           "showSubcategories": true,

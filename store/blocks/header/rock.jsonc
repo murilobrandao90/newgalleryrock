@@ -46,10 +46,7 @@
             "menu-item#braceletes-e-pulseiras",
             "menu-item#cintos",
             "menu-item#colares-e-gargantilhas",
-            "menu-item#suspensorios",
-            "menu-item#cds",
-            "menu-item#dvds",
-            "menu-item#vinil"
+            "menu-item#suspensorios"
         ],
         "props":{
             "blockClass":"category-menu-col1"
@@ -57,7 +54,16 @@
     },
     
     "flex-layout.col#submenu-rock2":{
-        "children":[],
+        "children":[
+            "menu-item#cds",
+            "menu-item#dvds",
+            "menu-item#vinil",
+            "menu-item#vazio",
+            "menu-item#vazio",
+            "menu-item#vazio",
+            "menu-item#vazio",
+            "menu-item#vazio"
+        ],
         "props":{
             "width":"category-menu-col1"
         }

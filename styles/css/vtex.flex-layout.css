@@ -26,11 +26,7 @@
   background-color: #f0f0f0;
 }
 
-.flexRowContent--main-header-mobile {
-  align-items: center;
-  padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
-}
+
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
@@ -109,15 +105,6 @@
   margin-right: auto;
 }
 
-.flexRowContent--main-header{
-  background-color: white;
-}
-
-.flexRow--deals__row{
-  background-color: #4D4D4D;  
-  font-size: 1vw;
-}
-
 .flexRow--category-menu-row{
   width: 100%;  
   display: flex;
@@ -137,7 +124,6 @@
 }
 
 .flexRow--home__row{
-  display: block;
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
@@ -161,6 +147,15 @@
 .flexCol--mosaico__col-right{
   display: flex;
   align-items: flex-start;
+}
+
+.flexRow--deals__row{
+  height: 40%;
+}
+
+.flexRow--home-marcas__row{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .flexCol--deals__col{
@@ -227,11 +222,6 @@
 
 .flexCol--footer__zap{
   flex-direction: row;
-}
-
-.flexRow--home-marcas__flex-row{
-  align-items: center;
-
 }
 
 .flexRow--institucional__titulo{

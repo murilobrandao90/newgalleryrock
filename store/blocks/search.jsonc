@@ -1,6 +1,14 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "default",
+          "maxItemsPerPage": 16,
+          "orderByField": "OrderByReleaseDateDESC"
+        }
+      } 
   },
   "search-result-layout": {
     "blocks": [
@@ -89,9 +97,15 @@
     ]
   },
 
+  "product-summary-price":{
+    "props":{
+      "blockClass": "summary-product-price"
+    }
+  },
+
   "product-summary-image" :{
     "props":{
-      "maxHeight": "200px"
+      "maxHeight": "150px"
     }
   },
 
