@@ -125,6 +125,7 @@
     "props":{
       "maxItems": 3,
       "displayMode": "slider",
+      "disableUnavailableSelectOptions": false,
       "showVariationsLabels": "none"
     }
   },

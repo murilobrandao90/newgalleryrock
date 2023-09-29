@@ -38,6 +38,14 @@
   font-size: 14px;
 }
 
+.flexRow--main-header{
+  background-color: #727273;
+}
+
+.flexRow--main-header-mobile{
+  background-color: #727273;
+}
+
 .flexRow--deals {
   background-color: #0F3E99;
   padding: 14px 0px;
@@ -151,6 +159,7 @@
 
 .flexRow--deals__row{
   height: 40%;
+  background-color: #4D4D4D;
 }
 
 .flexRow--home-marcas__row{

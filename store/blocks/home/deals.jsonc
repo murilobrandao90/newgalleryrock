@@ -27,6 +27,7 @@
 
     "image#deal1": {
       "props": {
+        "blockClass": "deals__image",
         "src": "assets/imgs/deals/frete.png"
       }
     },

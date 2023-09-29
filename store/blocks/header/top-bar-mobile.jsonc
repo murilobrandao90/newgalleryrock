@@ -53,6 +53,7 @@
           "search-bar"
         ],
         "props": {
+          "blockClass": "main-header-mobile",
           "fullWidth": true
         }
       },
