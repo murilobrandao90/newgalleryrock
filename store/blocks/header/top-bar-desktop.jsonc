@@ -83,7 +83,8 @@
 
     "flex-layout.col#category-menu": {
         "props":{
-            "verticalAlign":"bottom"
+            "verticalAlign":"bottom",
+            "blockClass": "category-menu-col"
         },
         "children": ["vtex.menu@2.x:menu#websites"]
     },

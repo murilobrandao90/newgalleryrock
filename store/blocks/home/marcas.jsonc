@@ -18,59 +18,73 @@
       "images": [
       {
         "image": "assets/imgs/home/marcas/1.png",
-        "mobileImage": "assets/imgs/home/marcas/1.png"
+        "mobileImage": "assets/imgs/home/marcas/1.png",
+        "link": {"url": "/vans"}
       },
       {
-        "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195616/gr-brand-labellamafia.png?v=637677534559870000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195616/gr-brand-labellamafia.png?v=637677534559870000"
+        "image": "assets/imgs/home/marcas/2.png",
+        "mobileImage": "assets/imgs/home/marcas/2.png",
+        "link": {"url": "/labellamafia"}
       },
       {
-          "image": "https://galleryrock.vteximg.com.br/arquivos/ids/199454/brand-maria-gueixa.png?v=637843292854370000",
-          "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/199454/brand-maria-gueixa.png?v=637843292854370000"
+          "image": "assets/imgs/home/marcas/3.png",
+          "mobileImage": "assets/imgs/home/marcas/3.png",
+          "link": {"url": "/maria-gueixa"}
         },
         {
-          "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195610/gr-brand-adidas.png?v=637677534829670000",
-          "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195610/gr-brand-adidas.png?v=637677534829670000"
+          "image": "assets/imgs/home/marcas/4.png",
+          "mobileImage": "assets/imgs/home/marcas/4.png",
+          "link": {"url": "/adidas"}
         },
         {
-          "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195617/gr-brand-vilelaboots.png?v=637677535101570000",
-          "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195617/gr-brand-vilelaboots.png?v=637677535101570000"
+          "image": "assets/imgs/home/marcas/5.png",
+          "mobileImage": "assets/imgs/home/marcas/5.png",
+          "link": {"url": "/villela-boots"}
         },
         {
             "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195621/gr-brand-stamp.png?v=637677536572530000",
-            "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195621/gr-brand-stamp.png?v=637677536572530000"
+            "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195621/gr-brand-stamp.png?v=637677536572530000",
+            "link": {"url": "/stamp-rockwear"}
         },
         {
             "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195618/gr-brand-ck.png?v=637677535453130000",
-            "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195618/gr-brand-ck.png?v=637677535453130000"
+            "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195618/gr-brand-ck.png?v=637677535453130000",
+            "link": {"url": "/calvin-klein"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/199455/brand-champion.png?v=637842599605400000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/199455/brand-champion.png?v=637842599605400000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/199455/brand-champion.png?v=637842599605400000",
+        "link": {"url": "/champion"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195619/gr-brand-hocks.png?v=637677535797600000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195619/gr-brand-hocks.png?v=637677535797600000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195619/gr-brand-hocks.png?v=637677535797600000",
+        "link": {"url": "/hocks"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195620/gr-brand-puma.png?v=637677536056300000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195620/gr-brand-puma.png?v=637677536056300000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195620/gr-brand-puma.png?v=637677536056300000",
+        "link": {"url": "/puma"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195609/gr-brand-fila.png?v=637677536322730000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195609/gr-brand-fila.png?v=637677536322730000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195609/gr-brand-fila.png?v=637677536322730000",
+        "link": {"url": "/fila"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195607/gr-brand-converse.png?v=637677533746730000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195607/gr-brand-converse.png?v=637677533746730000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195607/gr-brand-converse.png?v=637677533746730000",
+        "link": {"url": "/converse"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195619/gr-brand-hocks.png?v=637677535797600000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195619/gr-brand-hocks.png?v=637677535797600000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195619/gr-brand-hocks.png?v=637677535797600000",
+        "link": {"url": "/hocks"}
         },
         {
         "image": "https://galleryrock.vteximg.com.br/arquivos/ids/195613/gr-brand-melissa.png?v=637677534057130000",
-        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195613/gr-brand-melissa.png?v=637677534057130000"
+        "mobileImage": "https://galleryrock.vteximg.com.br/arquivos/ids/195613/gr-brand-melissa.png?v=637677534057130000",
+        "link": {"url": "/melissa"}
         }
       ]
     }
