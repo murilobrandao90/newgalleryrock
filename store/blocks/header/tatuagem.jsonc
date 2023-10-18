@@ -1,0 +1,204 @@
+{
+    "menu-item#tattoo":{
+        "props":
+        {
+            "blockClass":"menu-tattoo",
+            "id": "menu-item#tattoo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tatuagem",
+                "noFollow": false,
+                "tagTitle": "TATUAGEM",
+                "text": "TATUAGEM"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#tattoo"
+        ]
+    },
+    "vtex.menu@2.x:submenu#tattoo":{
+        "children":["flex-layout.row#submenu-tattoo"],
+        "props": {
+            "width": "100%"
+          }
+    },
+    
+    "flex-layout.row#submenu-tattoo":{
+        "children": [
+            "flex-layout.col#submenu-tattoo1",
+            "flex-layout.col#submenu-tattoo2",
+            "flex-layout.col#submenu-tattoo3",
+            "flex-layout.col#submenu-tattoo4"
+        ],
+        "props":{            
+            "blockClass":"category-menu-row"
+        }
+    },
+    
+    "flex-layout.col#submenu-tattoo1":{
+        "children":[
+            "menu-item#acessórios-tatto",
+            "menu-item#agulhas1",
+            "menu-item#biosseguranca",
+            "menu-item#biqueiras1",
+            "menu-item#epis-e-cremes",
+            "menu-item#luvas-descartaveis",
+            "menu-item#maquinas-tattoo",
+            "menu-item#tintas-tattoo"
+        ],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-tattoo2":{
+        "children":[
+           
+        ],
+        "props":{
+            "width":"category-menu-col1"
+        }
+    },
+    
+    "flex-layout.col#submenu-tattoo3":{
+        
+    },
+    
+    "flex-layout.col#submenu-tattoo4":{
+        "children":["image#rock4"],
+        "props":{
+            "blockClass":"category-menu-col1"
+        }
+    },
+    
+    "menu-item#acessórios-tatto":{
+        "props":
+        {
+            "blockClass":"menu-acessorios",
+            "id": "menu-item#acessorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "tatuagem/acessorios",
+                "noFollow": false,
+                "tagTitle": "ACESSÓRIOS",
+                "text": "ACESSÓRIOS"
+            }
+        }
+    },
+            "menu-item#agulhas1":{
+                "props":
+                {
+                    "blockClass":"menu-agulhas",
+                    "id": "menu-item#agulhas",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/agulhas",
+                        "noFollow": false,
+                        "tagTitle": "AGULHAS",
+                        "text": "AGULHAS"
+                    }
+                }
+            },
+            "menu-item#biosseguranca":{
+                "props":
+                {
+                    "blockClass":"menu-biosseguranca",
+                    "id": "menu-item#biosseguranca",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/biosseguranca",
+                        "noFollow": false,
+                        "tagTitle": "BIOSSEGURANÇA",
+                        "text": "BIOSSEGURANÇA"
+                    }
+                }
+            },
+            "menu-item#biqueiras1":{
+                "props":
+                {
+                    "blockClass":"menu-biqueiras",
+                    "id": "menu-item#biqueiras",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/biqueiras",
+                        "noFollow": false,
+                        "tagTitle": "BIQUEIRAS",
+                        "text": "BIQUEIRAS"
+                    }
+                }
+            },
+            "menu-item#epis-e-cremes":{
+                "props":
+                {
+                    "blockClass":"menu-epis-e-cremes",
+                    "id": "menu-item#epis-e-cremes",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/epis-e-cremes",
+                        "noFollow": false,
+                        "tagTitle": "EPIS E CREMES",
+                        "text": "EPIS E CREMES"
+                    }
+                }
+            },
+            "menu-item#luvas-descartaveis":{
+                "props":
+                {
+                    "blockClass":"menu-luvas-descartaveis",
+                    "id": "menu-item#luvas-descartaveis",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/luvas-descartaveis",
+                        "noFollow": false,
+                        "tagTitle": "LUVAS DESCARTÁVEIS",
+                        "text": "LUVAS DESCARTÁVEIS"
+                    }
+                }
+            },
+            "menu-item#maquinas-tattoo":{
+                "props":
+                {
+                    "blockClass":"menu-maquinas",
+                    "id": "menu-item#maquinas",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/maquinas",
+                        "noFollow": false,
+                        "tagTitle": "MÁQUINAS",
+                        "text": "MÁQUINAS"
+                    }
+                }
+            },
+            "menu-item#tintas-tattoo":{
+                "props":
+                {
+                    "blockClass":"menu-tintas",
+                    "id": "menu-item#tintas",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tatuagem/tintas",
+                        "noFollow": false,
+                        "tagTitle": "TINTAS",
+                        "text": "TINTAS"
+                    }
+                }
+            }
+}

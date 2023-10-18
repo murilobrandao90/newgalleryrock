@@ -7,7 +7,7 @@
             //"menu-item#roupas2",
             //"menu-item#calcados2",
             //"menu-item#acessorios2",
-            //"menu-item#rock2",
+            //"menu-item#tattoo2",
             //"menu-item#bazar2"
         ]
     },
@@ -28,6 +28,7 @@
         "disclosure-layout#calcados",
         "disclosure-layout#acessorios",
         "disclosure-layout#infantil",
+        "disclosure-layout#tattoo",
         "flex-layout.row#conectese-mobile"
       ]
     },
@@ -405,14 +406,42 @@
   }
 },
 
-    
-    "category-menu": {
-        "props": {
-          "showAllDepartments": true,
-          "showSubcategories": true,
-          "menuDisposition": "center",
-          "departments": [1, 25],
-          "sortSubcategories": "name"
-        }
-      }
+"disclosure-layout#tattoo": {
+  "props": {
+  "animated": true
+},
+  "children": ["disclosure-trigger#tattoo", "disclosure-content#tattoo"]
+},
+
+"disclosure-trigger#tattoo":{
+      "props": {
+          "blockClass": "question",
+          "as": "div"
+      },
+  "children":[
+      "disclosure-state-indicator",
+      "rich-text#tattoo-pergunta"
+  ]
+}, 
+"disclosure-content#tattoo":{
+  "props": {
+      "blockClass": "answer"
+  },
+  "children":[
+    "menu-item#acessórios-tatto",
+    "menu-item#agulhas1",
+    "menu-item#biosseguranca",
+    "menu-item#biqueiras1",
+    "menu-item#epis-e-cremes",
+    "menu-item#luvas-descartaveis",
+    "menu-item#maquinas-tattoo",
+    "menu-item#tintas-tattoo"
+  ]
+},
+
+"rich-text#tattoo-pergunta":{
+  "props":{
+      "text": "TATUAGEM"
+  }
+}
 }

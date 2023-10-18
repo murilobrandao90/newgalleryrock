@@ -3,7 +3,6 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-          "skusFilter": "FIRST_AVAILABLE",
           "simulationBehavior": "default",
           "maxItemsPerPage": 16,
           "orderByField": "OrderByReleaseDateDESC"
@@ -123,10 +122,13 @@
 
   "product-summary-sku-selector":{
     "props":{
-      "maxItems": 3,
+      "hideImpossibleCombinations": false,
       "displayMode": "slider",
-      "disableUnavailableSelectOptions": false,
-      "showVariationsLabels": "none"
+      "sliderItemsPerPage": {
+        "desktop": 3, 
+        "tablet": 3, 
+        "phone": 3
+      }
     }
   },
 
