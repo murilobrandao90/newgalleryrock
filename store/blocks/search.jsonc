@@ -92,7 +92,8 @@
       "product-summary-sku-selector",
       "product-summary-price",
       "product-identifier.summary",
-      "product-summary-buy-button"
+      "add-to-cart-button"
+      //"product-summary-buy-button"
     ]
   },
 
@@ -122,7 +123,6 @@
 
   "product-summary-sku-selector":{
     "props":{
-      "hideImpossibleCombinations": false,
       "displayMode": "slider",
       "sliderItemsPerPage": {
         "desktop": 3, 
