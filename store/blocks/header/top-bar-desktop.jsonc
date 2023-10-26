@@ -26,7 +26,6 @@
           "flex-layout.col#category-menu",
           "flex-layout.col#spacer",
           "flex-layout.col#top-bar-seach",
-          "locale-switcher",
           "login",
           "minicart.v2"
         ]

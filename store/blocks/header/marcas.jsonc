@@ -44,10 +44,12 @@
             "menu-item#all-star",
             "menu-item#calvin-klein",
             "menu-item#champion",
-            "menu-item#cravo-e-canela",
+            //"menu-item#cravo-e-canela",
             "menu-item#dc-shoes",
             "menu-item#ed-hardy",
-            "menu-item#fila"
+            "menu-item#fila",
+            "menu-item#villela-boots"
+            
         ],
         "props":{
             "blockClass":"category-menu-col1"
@@ -82,7 +84,7 @@
             "menu-item#supra",
             "menu-item#thrasher",
             "menu-item#vans",
-            "menu-item#villela-boots"
+            "menu-item#vazio"
         ],
         "props":{
             "blockClass":"category-menu-col1"
